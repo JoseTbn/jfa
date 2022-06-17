@@ -31,6 +31,7 @@ const item = {
 };
 
 const Hero = () => {
+  
   const { scroll } = useLocomotiveScroll();
 
   const scrollRef = useRef(null);

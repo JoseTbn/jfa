@@ -1,14 +1,19 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
  import project from '../utils/projetcsData'
-
-
 import dashbordapp from '../assets/stacks/dashbordapp.png'
 import ShowcaseWork from './ShowcaseWork'
+import ShowcaseWork2 from './ShowcaseWork copy'
+
 
 
 const Works = () => {
-  return (
+  
+  
+
+
+  
+    return (
    <>    
    {/* <section class='  h-max w-full  bg-texture ' >
    {
@@ -107,12 +112,33 @@ const Works = () => {
                 //             </div>
                 // </div>
 
-                <ShowcaseWork
+             
+                    <ShowcaseWork
+                    key={project.id}
+                    name={project.name}
+                    src={project.src}
+                    url={project.url}
+                    id={project.id} />
+
+                   
+               
+                    ))}
+
+
+{
+            project.map((project) => (
+            
+               
+                <ShowcaseWork2
                 key={project.id}
                 name={project.name}
                 src={project.src}
                 url={project.url}
-                id={project.id} />
+                id={project.id}
+                className={project.className}
+                side={project.side}
+                />
+
                 ))}
         </section>
         </>
