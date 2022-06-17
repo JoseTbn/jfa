@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
-<div>
-            <>
-            <header class=' container '>
 
-<nav class='box-border hidden justify-between m-0 px-0 py-8 lg:flex lg:justify-end lg:ml-auto uppercase'>
+            
+            <header class='  bg-texture '>
+
+<nav class='box-border hidden justify-between m-0 px-8 py-8 lg:flex lg:justify-end lg:ml-auto uppercase '>
   <ul>
     <Link to={'/Work'}><a class='lg:inline-block lg:text-xl lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline md:text-xs font-semibold uppercase text-gray-600 tracking-wider' to="">work</a>
     </Link >
@@ -30,8 +30,8 @@ Work
 
 </header>
             
-            </>
-        </div>
+            
+        
   )
 }
 

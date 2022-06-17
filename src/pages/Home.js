@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState,useEffect} from 'react'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Hero from '../components/Hero'
@@ -6,13 +6,35 @@ import Jfaloader from '../components/Jfaloader'
 import Navbar from '../components/Navbar'
 import SlideText from '../components/SlideText'
 import Works from '../components/Works'
+import { useLocomotiveScroll } from 'react-locomotive-scroll';
+import Shop from '../components/Shop'
 
 
 const Home = () => {
-  return (
-    <>
-    <div className="min-h-screen">
-     <section className=' scroll-smooth  h-screen w-full flex flex-col  bg-texture relative   '  >
+ 
+//   const [loader, setLoader] = useState(true); 
+
+ 
+//  useEffect(() => {
+
+// setTimeout(()=>{
+//   setLoader(false)
+// },9000)
+
+
+
+
+//  })
+ 
+const { scroll } = useLocomotiveScroll();
+ 
+   return  (
+     <>
+     <Navbar/>
+    <div  data-scroll-container className=" min-h-screen scroll-smooth  bg-texture  ">
+     {/* <section 
+     
+     className=' scroll-smooth  h-screen w-full flex flex-col  bg-texture relative   '  > */}
          
         
     
@@ -22,8 +44,8 @@ const Home = () => {
      src={noise}
      alt='roundanimation'
      /> */}
-         <Navbar/>
      <Hero/>
+     
          {/* <div data-aos="fade-right" data-aos-duration="2500" className=' box-border  flex flex-col w-4/5 h-4/5 px-4  py-4 md:pt-20 xs:pt-10
      m-auto   '>
            <div className=''>
@@ -58,15 +80,16 @@ const Home = () => {
      
      
      
-       </section>
+       {/* </section> */}
        <SlideText/>
      <Works/>
-     <section className=' h-max w-full pt-1  ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}>
+     <Shop/> 
+     {/* <section className=' h-max w-full pt-1  ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}> */}
      <SlideText/>
      <About/>
      <SlideText/>
      <Contact/>
-     </section>
+     {/* </section> */}
      </div>
     </>
   )

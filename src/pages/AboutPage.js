@@ -2,8 +2,11 @@ import React from 'react'
 
  const AboutPage = () => {
   return (
-    <div>About</div>
-  )
+
+<section className="bg-texture h-screen" > 
+
+</section>
+    )
 }
 
 export default AboutPage

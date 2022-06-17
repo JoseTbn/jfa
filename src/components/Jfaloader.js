@@ -1,5 +1,5 @@
 import React, { useEffect, useState,useRef } from 'react'
-import vid from '../assets/loader_jfa_snf5ih (1).mp4'
+import vid from '../assets/jfv.mp4'
 
 
 const JfaLoader = () => {
@@ -7,7 +7,7 @@ const JfaLoader = () => {
 
     return   (
  
-    <video src={vid} loop autoPlay={true}  ></video>
+    <video src={vid} type="video/mp4" autoPlay muted loop className='w-full'  ></video>
       
       
     //   <CloudinaryContext cloud_name="drjyit4nj">

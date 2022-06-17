@@ -7,7 +7,7 @@ import ContactForm from './ContactForm'
 
 const Contact = () => {
   return (
-    <section class='h-max w-full bg-texture   ' >
+    <section class=' h-full  ' >
 
 
             <div class="box-border mx-auto mt-28 flex flex-col  w-4/5 h-3/5 px-4  py-12  m-auto p-0">

@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Poppins:wght@300;400;700&display=swap'); */
+
+/* @font-face {
+    font-family: 'HARMONY';
+    src: url('./assets/fonts/HARMONY.otf');
+} */
+@font-face {
+    font-family:' Rockstar';
+    src: url('./assets/fonts/Rockstar-ExtraBold.otf');
+}
+
+
+@font-face {
+    font-family: 'bebasNeue';
+    src: url('./assets/fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'bebasB';
+    src: url('./assets/fonts/Fontfabric-BebasNeue-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Open Sauce";
+    src: url("./assets/fonts/opensauce-medium.woff2") format("woff2"),
+      url("./assets/fonts/opensauce-medium.woff2") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+/*   
+  @font-face {
+    font-family: "Open Sauce";
+    src: url("./assets/fonts/opensauce-regular.woff2") format("woff2"),
+      url("./assets/fonts/opensauce-regular.woff2") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  } */
+  
+  @font-face {
+      font-family: 'Pixer' ;
+      src: url('./assets/fonts/Pixer-Regular.woff') format("woff2");
+    
+  }
+  @font-face {
+      font-family: 'Pixer2' ;
+      src: url('./assets/fonts/Pixer-Regular.woff2') format("woff2");
+  }
