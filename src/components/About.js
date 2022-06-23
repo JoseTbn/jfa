@@ -9,117 +9,135 @@ const About = () => {
   return (
     <>
     <div class=' h-full w-full  bg-texture '>
+    <section class="border-0 block m-0 px-16 py-80 align-baseline md:text-center">
+        <h2 class="border-0 text-gray-600 font-bebasB  text-xl mx-0 mt-0 mb-10 p-0 uppercase align-baseline">DEVSECOPS PATH</h2>
+        <p class=" font-bebasB text-gray-600 border-0 text-5xl m-0 p-0 tracking-tight align-baseline w-full md:my-0 md:mx-auto">
+          I have worked on some projects; during an intensive training at Becode, a great experience where I improved
+          my skills in the domain of infrastructure as code and cloud computing.
+          <a
+          className="border-0 m-0 p-0 no-underline align-baseline"
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >DOCKER</a
+          >,
+          <a
+                    className="border-0 m-0 p-0 no-underline align-baseline"
 
-        <div class='box-border mx-auto mt-28 flex flex-col  w-4/5 h-3/5 px-4   pb-24 m-auto p-0'>
-            <h2 class='text-5xl font-semibold pt-2 '>About</h2>
-            <div class="w-96 py-4 lg:text-6xl lg:mt-8 2xl:text-7xl indent-7  font-extrabold">
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >VAGRANT</a
+          >
+          and
+          <a
+                    className="border-0 m-0 p-0 no-underline align-baseline"
 
-                <h3 
-              
-                class=' uppercase' >“always be eager for new technologies.”
-                </h3>
-
-            </div>
-
-            <div class="  animate-spinSlow  self-end w-48 2xl:w-60" >
-                <img class=''
-                    src={svg}
-                    alt='roundanimation'
-                  
-                />
-
-            </div>
-
-            <div class=''>
-                <h3 class='text-3xl lg:text-4xl 2xl:text-4xl 2xl:w-72 font-medium  uppercase text-gray-600 tracking-wider'>CREATING DIGITAL EXPERIENCES TO BRING PEOPLE TOGETHER.</h3>
-            </div>
-<Experiences/>
-
-
-            <div class='lg:mt-8 2xl:mt-8 whitespace-normal'>
-                <p class=' text-base font-semibold uppercase text-gray-600 tracking-wider'>I'm a driven person who works hard to attain my goals.The ability to overcome <br />
-                    obstacles and follow things through to completion has always been a strong point of mine,<br />
-                    which is why I've thrived in all the workplaces I have had the pleasure of working in.
-                </p>
-            </div>
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >TERRAFORM</a
+          >
+        </p>
+      </section>
 
 
-          
-            <div class=' pt-20  w-full  justify-around flex flex-col '>
-
-                <h2 class='text-8xl lg:mx-0 lg:mt-6 lg:mb-2.5 py-40 font-extrabold pt-20 uppercase ' data-aos="zoom-in-down" data-aos-duration="1500">Skills</h2>
-
-                <div class=' self-end box-border mb-28 w-full'>
-
-
-                    <div class="container  px-5 py-24 mx-auto lg:px-16">
-                    <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:py-16 lg:px-8">
-<p class="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
-  My tech stacks & some tools I use in my work flow
-</p>
-<Stack/>
-{/* <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-  <div class="col-span-1 flex justify-center py-8 px-8 ">
-    <img
-      class="max-h-4 filter grayscale "
-      src={j}
-      alt="Workcation"
-    />
+      <div className="container">
+  <div className="py-24 px-80 xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28">
+    <p className="font-light text-base leading-8 m-0 p-0 tracking-tight lg:text-lg xl:text-xl xl:leading-8 md:text-xl">Skills &amp; Recognitions</p>
+    <p className="font-semibold text-3xl  m-0 p-0 text-gray-600 tracking-tight lg:text-5xl xl:text-6xl">
+      I worked both with agencies and independently. I also win some awards
+      &amp; recognitions.
+    </p>
   </div>
-  <div class="col-span-1 flex justify-center py-8 px-8  ">
-    <img class="max-h-4 filter grayscale " src={a} alt="Mirage" />
-  </div>
-  <div class="col-span-1 flex justify-center py-8 px-8 ">
-    <img class="max-h-4 filter grayscale " src={s} alt="Tuple" />
-  </div>
-  <div class="col-span-1 flex justify-center py-8 px-8 ">
-    <img class="max-h-4 filter grayscale " src={m} alt="Laravel" />
-  </div>
-  <div class="col-span-1 flex justify-center py-8 px-8 ">
-    <img
-      class="max-h-4 filter grayscale "
-      src={n}
-      alt="StaticKit"
-    />
-  </div>
-  <div class="col-span-1 flex justify-center py-8 px-8 ">
-    <img
-      class="max-h-4 filter grayscale "
-      src={r}
-      alt="Statamic"
-    />
-  </div>
-  <div class="col-span-1 flex justify-center py-8 px-8 ">
-    <img
-      class="max-h-4 filter grayscale "
-      src={g}
-      alt="Statamic"
-    />
-  </div>
-  <div class="col-span-1 flex justify-center py-8 px-8 ">
-    <img
-      class="max-h-4 filter grayscale "
-      src={f}
-      alt="Statamic"
-    />
-  </div>
-  <div class="col-span-1 flex justify-center py-8 px-8 ">
-    <img
-      class="max-h-4 filter grayscale "
-      src={c}
-      alt="Statamic"
-    />
-    
-  </div>
-</div> */}
-</div>
-                    </div>
-
-
-                </div>
-            </div>
+  <div className="py-24 px-80 xl:flex xl:justify-around xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28">
+    <div className="skills-container w-1/2">
+      <div className="flex justify-between w-full">
+        <div className="skill">
+          <h3 className='font-bold text-lg m-0 p-0 text-black lg:text-2xl'>Design</h3>
+          <ul>
+            <li>UI Design</li>
+            <li>UX Design</li>
+            <li>Prototyping</li>
+            <li>Visual Design</li>
+            <li>Mobile App Design</li>
+            <li>Web Design</li>
+            <li>Interaction Design</li>
+          </ul>
         </div>
+        <div className="skill">
+          <h3 className='font-bold text-lg m-0 p-0 text-black lg:text-2xl'>Development</h3>
+          <ul>
+            <li>HTML5 / CSS3</li>
+            <li>Javascript</li>
+            <li>Vue.js</li>
+            <li>Tweenmax GSAP</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Wordpress</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div className="flex flex-wrap items-baseline justify-between mt-12 gap-4 lg:mt-8 xl:mt-0">
+      <div className="split">
+        <div className="award">
+          <img
+            src="https://lucavolino.com/wp-content/themes/lucavolino/img/awwwards-black.png"
+            width={80}
+            alt=""
+          />
+          <p className="font-light text-base leading-8 m-0 p-0 text-black lg:text-lg xl:text-xl xl:leading-8">
+            Honorable Mentions
+            <br />
+            x1
+          </p>
+        </div>
+        <div className="award">
+          <img
+            src="https://lucavolino.com/wp-content/themes/lucavolino/img/cssda-black.png"
+            width={55}
+            alt=""
+          />
+          <p className="font-light text-base leading-8 m-0 p-0 text-black lg:text-lg xl:text-xl xl:leading-8">
+            Special Kudos
+            <br />
+            x4
+          </p>
+        </div>
+      </div>
+      <div className="split">
+        <div className="award">
+          <img
+            src="https://lucavolino.com/wp-content/themes/lucavolino/img/dn-black.png"
+            width={55}
+            alt=""
+          />
+          <p className="font-light text-base leading-8 m-0 p">
+            Site of the day
+            <br />
+            x2
+          </p>
+        </div>
+        <div className="award">
+          <img
+            src="https://lucavolino.com/wp-content/themes/lucavolino/img/cssfox-black.png"
+            width={55}
+            alt=""
+          />
+          <p className="font-light text-base leading-8 m-0 p-0 text-black lg:text-lg xl:text-xl xl:leading-8">
+            Favorite Fox
+            <br />
+            x1
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+
+       
 
 
     </div>

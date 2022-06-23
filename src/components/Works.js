@@ -63,83 +63,27 @@ const Works = () => {
         }
 </section> */}
 
-<section class='  h-full  w-full  bg-texture ' >      
-{
-            project.map((project) => (
-       
-                // <div className=" flex md:flex-row items-center justify-between ">
-                //     <div className="p-20" data-aos="fade-down-right" data-aos-duration="1500" >
-                //     <h2 class='2xl:text-5xl 2xl:mb-2  font-semibold'>
-                //     {project.name}
-                //     </h2>
-                //     <h3 class=' py-6'>
-                //         Personal project · 2020 · Development
-                //     </h3>
-                //     <a class=' border-black border-2  p-3 hover:bg-black hover:text-white' href="">
-                //         View more
-                //     </a>
-                //                 </div>
-                          
-                //            <div className="  mx-auto container py-12 px-4 md:px-6 2xl:px-0 flex justify-center  items-center">
-                //                 <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-8 space-y-6 lg:space-y-0  ">
-                //     <div className="relative">
-                //         <img className="hidden  w-8/12 lg:block"src={dashbordapp} alt="table-chair" />
-                //         <img className="hidden w-6/12 sm:block lg:hidden" src={dashbordapp} alt="table-chair" />
-                //         <img className="sm:hidden" src={dashbordapp} alt="table-chair" />
-                //         <div className="absolute bottom-4 sm:bottom-10 inset-x-4 sm:inset-x-10 p-6  bg-white  flex flex-col justify-start items-start">
-                //             <div>
-                //                 <p className="text-2xl font-semibold leading-6 text-gray-800">{project.name}</p>
-                //             </div>
-                //             <div className="mt-2">
-                //                 <p className="text-base leading-6 sm:leading-4 text-gray-600"> Personal project · 2020 · Development</p>
-                //             </div>
-                //             <div className="mt-6">
-                //                 <div className="flex justify-between items-center space-x-2">
-                //                     <a className="text-base flex font-medium leading-none hover:underline text-gray-800 border-black border-2  p-3 hover:bg-black hover:text-white" href="/">
-                //                         Explore
-                    
-                //                     <svg className="fill-current" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                //                         <path d="M3.33337 8H12.6667" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-                //                         <path d="M10 10.6667L12.6667 8" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-                //                         <path d="M10 5.33333L12.6667 8" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-                //                     </svg> </a>
-                //                 </div>
-                //             </div>
-                //         </div>
-                //     </div>
-                    
-                //                 </div>
-                //             </div>
-                // </div>
+<section class='  h-full  w-full  bg-texture container max-w-screen-sm overflow-hidden px-4 py-24 lg:px-7 lg:pb-14 lg:pt-36 xl:max-w-full ' >      
 
-             
-                    <ShowcaseWork
+
+<div className="grid grid-cols-12 gap-12  container mx-auto ">
+    {
+                project.map((project) => (
+    
+    
+                    <ShowcaseWork2
                     key={project.id}
                     name={project.name}
                     src={project.src}
                     url={project.url}
-                    id={project.id} />
-
-                   
-               
+                    id={project.id}
+                    className={project.className}
+                    side={project.side}
+                    />
+    
                     ))}
+</div>
 
-
-{
-            project.map((project) => (
-            
-               
-                <ShowcaseWork2
-                key={project.id}
-                name={project.name}
-                src={project.src}
-                url={project.url}
-                id={project.id}
-                className={project.className}
-                side={project.side}
-                />
-
-                ))}
         </section>
         </>
   )

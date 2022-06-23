@@ -1,10 +1,15 @@
 import React from 'react'
+import ContactH from '../components/contactPages/ContactH'
+import Navbar from '../components/Navbar'
 
 const Contact = () => {
   return (
-    <div className="bg-texture h-full">
-      <h1>jose</h1>
+      <>
+    <div className="bg-texture   min-h-screen ">
+<Navbar/>
+<ContactH/>
     </div>
+</>
 
   )
 }

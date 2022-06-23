@@ -44,7 +44,8 @@ module.exports = {
     },
     extend: {
       backgroundImage:{
-        texture: `url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')`
+        texture: `url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')`,
+        darkTexture: `url('https://images.unsplash.com/photo-1602475063211-3d98d60e3b1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')`
                  },
       fontFamily: {
         'sans': ['Roboto', 'Helvetcica', 'Arial', 'sans-serif'],
@@ -65,6 +66,10 @@ module.exports = {
           '0%': { transform: 'translateX(1%)' },
           '100%': { transform: 'translateX(-100%)' },
         },
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
 
         spinSlow: {
           '0, 100%':{transform: 'rotate(360%)'}
@@ -75,6 +80,7 @@ module.exports = {
 animation: {
     'scrollX': 'scrollX 40s linear infinite',
    'scrollZ': 'scrollZ 40s linear infinite',
+   'marquee': 'marquee 20s linear infinite',
     'spinSlow': 'spin 10s linear infinite',
     'spin-slow': 'spin 3s linear infinite',
 

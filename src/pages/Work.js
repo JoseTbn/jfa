@@ -1,5 +1,12 @@
 import React from 'react'
 import {useParams} from "react-router-dom"
+import Navbar from '../components/Navbar'
+import EndNextP from '../components/workpages/EndNextP'
+import EndNextPDown from '../components/workpages/EndNextPDown'
+import ProjV from '../components/workpages/projV'
+import ProjVEnd from '../components/workpages/ProjVEnd'
+import SlideDownParallax from '../components/workpages/SlideDownParallax'
+import TopTitleSlider from '../components/workpages/topTitleSlider'
 import projetcsData from '../utils/projetcsData'
 
 
@@ -36,19 +43,18 @@ const Work = (props) => {
   const thisWork = projetcsData.find(work => work.id === Id) 
  
  return (
-<div className="  bg-texture">
-<div className="container">
-<div className=" box-border  flex flex-col w-4/5 h-4/5 px-4  py-4 md:pt-20 xs:pt-10 
-m-auto   ">
-<h1>{thisWork.name}</h1>
-<p className="pb-1">{thisWork.desc}</p>
-<p className="pb-1">{thisWork.name}</p>
-<button className="dark:bg-white dark:hover:bg-gray-400 dark:hover:text-gray-100 dark:text-gray-800 w-28 mt-8 text-base justify-between focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:bg-gray-700 font-medium leading-none text-white py-4 px-8 bg-gray-800 flex items-center">Go live</button>
-</div>
-</div>
+<section className=" min-h-screen bg-texture">
+<Navbar/>
 
-<WorkImgs/>
-</div>
+<TopTitleSlider/>
+
+
+<ProjV
+/>
+<ProjVEnd/>
+<EndNextP/>
+<EndNextPDown/>
+</section>
   )
 }
 

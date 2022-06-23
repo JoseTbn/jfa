@@ -31,7 +31,7 @@ const { scroll } = useLocomotiveScroll();
    return  (
      <>
      <Navbar/>
-    <div  data-scroll-container className=" min-h-screen scroll-smooth  bg-texture  ">
+    <section  data-scroll-container className=" min-h-screen scroll-smooth  bg-texture  ">
      {/* <section 
      
      className=' scroll-smooth  h-screen w-full flex flex-col  bg-texture relative   '  > */}
@@ -80,17 +80,17 @@ const { scroll } = useLocomotiveScroll();
      
      
      
-       {/* </section> */}
+      
        <SlideText/>
      <Works/>
-     <Shop/> 
+     {/* <Shop/>  */}
      {/* <section className=' h-max w-full pt-1  ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}> */}
      <SlideText/>
      <About/>
      <SlideText/>
      <Contact/>
-     {/* </section> */}
-     </div>
+ 
+     </section>
     </>
   )
 }

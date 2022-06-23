@@ -13,7 +13,7 @@ export default [
     desc: 'Landing page',
     type: 'Personal project ',
     date: '2020',
-    className: 'flex  flex-col self-center h-[720px] p-5  rounded-md w-[662px] max-w-full object-cover  top-0 left-10 ',
+    className: 'col-span-4 lg:col-span-6 mt-[48px] lg:mt-0 w-[640px] h-[800px]',
     side: 'flex'
 },
 {
@@ -24,7 +24,7 @@ export default [
     desc: 'Landing page',
     type: 'Personal project ',
     date: '2020',
-    className: 'flex flex-col self-center h-[720px] p-5  rounded-md w-[662px] max-w-full object-cover  top-0 left-0 ',
+    className: 'col-span-4 lg:col-span-6 mt-[48px] lg:mt-[154px] w-[640px] h-[800px] ',
     side: 'flex'
 
 },
@@ -36,7 +36,19 @@ export default [
     desc: 'Landing page',
     type: 'Personal project ',
     date: '2020',
-    className: 'flex flex-col self-start h-[720px] p-5  rounded-md w-[662px] max-w-full object-cover  top-0 left-0  ',
+    className: 'col-span-4 lg:col-span-6 mt-[48px] lg:mt-0 w-[640px] h-[800px]',
+    side: ' flex '
+
+},
+{
+    id:4,
+    url: '/Work',
+    src: ant,
+    name: 'Dashborad app',
+    desc: 'Landing page',
+    type: 'Personal project ',
+    date: '2020',
+    className: 'col-span-4 lg:col-span-6 mt-[48px] lg:mt-[154px] w-[640px] h-[800px] ',
     side: ' flex '
 
 },
