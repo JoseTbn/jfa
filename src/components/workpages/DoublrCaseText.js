@@ -1,4 +1,19 @@
 import React from 'react'
+import { motion } from "framer-motion"
+
+
+
+const ImgAnimate ={
+
+  offscreen : { y : 100, opacity : 0} ,
+    onscreen : { y : 0 ,
+      opacity : 1,
+    transition : { type : "spring" ,
+    duration : 1.8 }
+    }
+}
+
+
 
 const DoublrCaseText = () => {
   return (
