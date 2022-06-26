@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import reportWebVitals from './reportWebVitals';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
-
+import { Curtains } from "react-curtains";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -15,7 +15,9 @@ root.render(
   <React.StrictMode>
   <BrowserRouter>
   <ParallaxProvider>
-<App />
+  <Curtains pixelRatio={Math.min(1.5, window.devicePixelRatio)}>
+      <App />
+    </Curtains>
 </ParallaxProvider>
 </BrowserRouter>,
   </React.StrictMode>

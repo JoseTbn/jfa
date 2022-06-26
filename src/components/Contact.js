@@ -12,20 +12,36 @@ const Contact = () => {
 
             <div class="box-border mx-auto mt-28 flex flex-col  w-4/5 h-3/5 px-4  py-12  m-auto p-0">
                 <h2 class=' text-3xl font-semibold  '>Contact</h2>
+                <div class=" animate-scrollX">
 
-                <div class="md:flex  items-start  w-full">
-                    <div class="">
-                        <h2 class="text-8xl lg:mx-0 lg:mt-6 lg:mb-2.5 py-40 font-extrabold " data-aos="zoom-in-down" data-aos-duration="1500"> Get in touch</h2>
-                        <h3 class='box-border font-medium text-2xl mx-0 mb-8 mt-16 p-0  lg:mt-8  uppercase text-gray-600 tracking-wider'> Looking to join or work with an organization <br /> that will leverage my skills and facilitate my professional
-                            development </h3>
-                        <p class=' mb-8 uppercase'>Brussels, Belgium</p>
-                    </div>
-                    
-                    <div class="max-w-2xl mx-auto lg:max-w-none">
-                        <ContactForm/>
-         
-                    </div>
-                </div>
+          <a
+            href="mailto:oluwadareseyii@gmail.com?subject=Lets%20work%20together!&body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
+            class=" hover:transform hover:translate-y-0"
+          >
+            <div class="">
+              <span aria-hidden="true" class="inner-span">
+                <span
+                  class="border-0 hidden m-0 overflow-hidden py-0 px-8 absolute top-0 left-0 align-baseline whitespace-nowrap font-bebasB text-gray-600 text-8xl"
+                  data-content="LET’S TALK — LET’S COLLABORATE — SAY HELLO — WANNA BE STARTING
+                SOMETHING?"
+                  aria-hidden="true"
+                ></span>
+                LET’S TALK — LET’S COLLABORATE — SAY HELLO — WANNA BE STARTING
+                SOMETHING?</span
+              >
+              <span class="inner-span">
+                <span
+                  class="border-0 hidden m-0 overflow-hidden py-0 px-8 absolute top-0 left-0 align-baseline whitespace-nowrap font-bebasB text-gray-600 text-8xl"
+                  data-content="LET’S TALK — LET’S COLLABORATE — SAY HELLO — WANNA BE STARTING
+                SOMETHING?"
+                  aria-hidden="true"
+                ></span>
+                LET’S TALK — LET’S COLLABORATE — SAY HELLO — WANNA BE STARTING
+                SOMETHING?</span
+              >
+            </div>
+          </a>
+        </div>
 
                 {/* <div class="box-border mx-0 mb-0 mt-12 p-0">
                     <a class='bg-no-repeat box-border inline-block font-semibold text-xl mr-1 p-1 uppercase no-underline border-2 border-black   ' href=""><span>LInkedin</span></a>

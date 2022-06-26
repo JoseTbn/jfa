@@ -1,6 +1,22 @@
 import React from 'react'
 import ant from '../../assets/Beige Minimalist Mock Up Design Facebook Cover.png'
 import BigImg from './projVBigImg'
+import { motion } from "framer-motion"
+
+
+
+const ImgAnimate ={
+
+  offscreen : { y : 100, opacity : 0} ,
+    onscreen : { y : 0 ,
+      opacity : 1,
+    transition : { type : "spring" ,
+    duration : 1.5 }
+    }
+}
+
+
+
 
 const projV = (props) => {
   return (
@@ -8,15 +24,21 @@ const projV = (props) => {
     <BigImg/>
   <div className="container mx-auto">
   <div className="grid grid-cols-12 gap-10">
-    <div className="col-span-4 lg:col-span-5 lg:mb-[100px]">
-      <div>
+    <motion.div 
+      initial = {"offscreen"}
+      whileInView= {"onscreen"}
+      viewport={{once:false, amount:0.5}}
+    className="col-span-4 lg:col-span-5 lg:mb-[100px]">
+      <motion.div
+       variants={ImgAnimate}
+      >
         <div className="flex items-center mb-[18px]">
           <span className="inline-block font-semibold text-2xl leading-7 mr-4 tracking-tighter lg:font-semibold lg:text-3xl lg:leading-8 lg:tracking-tight">Overview</span>
           <a
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex flex-none items-center cursor-pointer"
-            href="https://getcarv.com/"
+            href="https://anticip.team/"
           >
             <div className="px-[9px] pt-[4px] pb-[1px] border-[2px] uppercase font-display text-[14px] leading-none tracking-[0.04em] font-semibold rounded-[30px] border-black order-first mr-[4px]">
               Visit the website
@@ -69,10 +91,13 @@ const projV = (props) => {
             Front-end development
           </li>
         </ul>
-      </div>
-    </div>
-    <div className="col-span-4 lg:col-span-5 lg:col-start-8">
-      <div className="mt-[50px] lg:mt-0 pt-[14px] pb-[60px] lg:pb-[72px] border-t-[1.5px] border-black">
+      </motion.div>
+    </motion.div>
+   
+    <div 
+    className="col-span-4 lg:col-span-5 lg:col-start-8">
+      
+      <motion.div variants={ImgAnimate} className="mt-[50px] lg:mt-0 pt-[14px] pb-[60px] lg:pb-[72px] border-t-[1.5px] border-black">
         <span className="block upper mb-[28px]">Background</span>
         <p className="sm-paragraph">
           We’d been working with Carv since the beginning and developed its
@@ -81,7 +106,7 @@ const projV = (props) => {
           to launch a new membership to the skiing community, it was time for a
           refresh.
         </p>
-      </div>
+      </motion.div>
     </div>
   </div>
 </div>

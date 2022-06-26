@@ -7,7 +7,12 @@ const Navbar = () => {
             
             <header class='  bg-texture '>
 
-<nav class='box-border hidden justify-between m-0 px-8 py-8 lg:flex lg:justify-end lg:ml-auto uppercase '>
+<nav class='box-border hidden justify-between m-0 px-8 py-8 lg:flex lg:justify-between lg:ml-auto uppercase '>
+
+<Link  to={'/'}
+className="lg:inline-block lg:text-xl lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline md:text-xs font-semibold uppercase text-gray-600 tracking-wider"> Batumeni jose</Link>
+
+
   <ul>
     <Link to={'/Work'}><a class='lg:inline-block lg:text-xl lg:ml-14 lg:pb-0.5 lg:relative lg:no-underline md:text-xs font-semibold uppercase text-gray-600 tracking-wider' to="">work</a>
     </Link >

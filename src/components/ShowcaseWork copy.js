@@ -1,6 +1,18 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
 import Button from './Button';
+import { motion } from "framer-motion"
+
+
+const ImgAnimate ={
+
+    offscreen : { y : 100, opacity : 0} ,
+      onscreen : { y : 0 ,
+        opacity : 1,
+      transition : { type : "spring" ,
+      duration : 0.7 }
+      }
+  }
 
 
 const ShowcaseWork2 = (props) => {
@@ -12,10 +24,20 @@ const ShowcaseWork2 = (props) => {
   
     return (
     
-    <div className={props.className}>
+    <div className={props.className}
+   
+    >
         
-        <div className=" ">
-          <div className="group cursor-pointer relative w-full rounded-[20px] overflow-hidden aspect-[343/400] [transform:translateZ(0)] lg:aspect-[669/783]">
+        <motion.div className=" "
+        
+        initial = {"offscreen"}
+        whileInView= {"onscreen"}
+        viewport={{once:false, amount:0.5}}
+      >
+          <motion.div className="group cursor-pointer relative w-full rounded-[20px] overflow-hidden aspect-[343/400] [transform:translateZ(0)] lg:aspect-[669/783]"
+            variants={ImgAnimate}
+     
+          >
         
               <a className="relative block h-full w-full overflow-hidden" href="">
                   <div className="absolute inset-0 w-full h-full">
@@ -92,7 +114,7 @@ const ShowcaseWork2 = (props) => {
                             </div>
     </div>
 </div>
-</div>
+</motion.div>
 <div className="flex justify-between mt-[20px] flex-row items-center">
     <a href="/work/daysmart" className="">
     <span className="h5 font-bebasB group-hover:text-red-500  text-4xl">{props.name}</span>
@@ -106,7 +128,7 @@ const ShowcaseWork2 = (props) => {
 </div>
 </div>
 
-        </div>
+        </motion.div>
     </div>
 
     

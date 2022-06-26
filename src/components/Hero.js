@@ -126,23 +126,23 @@ const Hero = () => {
               data-scroll-direction="horizontal"
               data-scroll-speed="9"
             >
-              <p className=" tracking-tighter ">
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-20xl md:text-8xl  font-bebasB f  text-gray-600   ">
+              <p className=" tracking-tighter  ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   D
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   E
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB text-gray-600     ">
+                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700   text-gray-600     ">
                   V
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB f text-gray-600    ">
+                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700    text-gray-600    ">
                   S
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   E
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB f text-gray-600    ">
+                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700    text-gray-600    ">
                   C
                 </span>
               </p>
@@ -155,13 +155,13 @@ const Hero = () => {
               data-scroll-direction="horizontal"
               data-scroll-speed="-9" className="  ">
               <p className="tracking-tighter  ">
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-20xl md:text-8xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   O
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   P
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   S
                 </span>
               </p>
@@ -178,40 +178,40 @@ const Hero = () => {
             <div className="border-0 box-border inline-block m-0 p-0 align-baseline  flex-auto  ">
               <p className="tracking-tighter  lg:text-16xl md:text-4xl   font-bebasB font-extrabold  ">
                 
-                <span className="border-0 box-border m-0  align-baseline  lg:text-16xl md:text-4xl   font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0  align-baseline  lg:text-16xl md:text-4xl   font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   F
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   U
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   L
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   L
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   S
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   T
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   A
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   C
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   K
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   D
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   E
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB   text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-16xl md:text-4xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   V
                 </span>
               </p>
@@ -219,7 +219,7 @@ const Hero = () => {
 
             <div className="border-0 box-border inline-block ml-10 p-0 align-baseline max-w-sm ">
               <p>
-                I'm a driven person who works hard to attain my goals.The ability to overcome obstacles and follow things through to completion has always been a strong point of mine.
+                <span className="border-0 text-x font-semibold  m-0 p-0 uppercase align-baseline">About</span> I'm a driven person who works hard to attain my goals.The ability to overcome obstacles and follow things through to completion has always been a strong point of mine.
               </p>
             </div>
 

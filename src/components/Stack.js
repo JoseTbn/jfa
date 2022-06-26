@@ -14,55 +14,55 @@ import  t from "../assets/stacks/tailwind.svg"
 
 const Stack = () => {
   return (
-    <div className=" py-20 flex flex-col items-center justify-center">
-    <div className="xl:w-1/2 w-11/12">
-        <h1 role="heading" tabIndex={0} className="text-6xl font-bold 2xl:leading-10 leading-0 text-center text-gray-800">
-        My tech stacks & some tools I use in my work flow
+   
 
-        </h1>
-        
+<section class="py-12 md:py-20">
+  <div class="container px-4 mx-auto">
+    {/* <div class="max-w-lg mx-auto mb-12 text-center">
+      <span class="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl">Lorem ipsum</span>
+      <h2 class="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading">Lorem ipsum dolor sit amet consectutar domor</h2>
+      <p class="text-blueGray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p>
+    </div> */}
+    <div class="flex flex-wrap -mx-3 mb-6 lg:mb-0">
+      <div class="w-full lg:w-1/2 flex flex-wrap px-3 mb-6 lg:md-0">
+        <div class="w-1/2 h-64 pr-3 pb-3">
+          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+        </div>
+        <div class="w-1/2 h-64 pl-3 pb-3">
+          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1529513342590-3b342bb7dd67?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+        </div>
+        <div class="w-1/2 h-64 pr-3 pt-3">
+          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1489058535093-8f530d789c3b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+        </div>
+        <div class="w-1/2 h-64 pl-3 pt-3">
+          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1602883440931-c268da6122b0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 px-3">
+        <img class="h-[510px] w-full object-cover rounded" src="https://images.unsplash.com/photo-1501769214405-5e5ee5125a02?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=698&amp;q=80" alt=""/>
+      </div>
     </div>
-    <div className="2xl:px-4  px-2 flex  sm:flex-wrap xl:flex-nowrap items-start mt-4">
-        <div className="mt-24 ">
-            <div className="flex items-end gap- ">
-                <img tabIndex={0} src={a} alt="girl with blue background" className="w-20 h-20 rounded-lg mr-6" />
-                <img tabIndex={0} src={m} alt="guy winking" className="w-48 h-36 rounded-lg" />
-            </div>
-            <div className="flex items-center justify-end my-6">
-                <img tabIndex={0} src={c} alt="guy smiling" />
-            </div>
-            <div className="flex items-start">
-                <img tabIndex={0} src={n} alt="girl with bluw background" className="w-48 h-48 rounded-lg" />
-                <img tabIndex={0} src={j} alt="guy with glasses" className="w-20 h-20 rounded-lg ml-6 flex-shrink-0 object-cover object-fit" />
-            </div>
+    <div class="flex flex-wrap -mx-3 mb-6">
+      <div class="w-full lg:w-1/2 px-3 order-last lg:order-first mt-6 lg:mt-0">
+        <img class="h-[510px] w-full object-cover rounded" src="https://images.unsplash.com/photo-1501769214405-5e5ee5125a02?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=698&amp;q=80" alt=""/>
+      </div>
+      <div class="w-full lg:w-1/2 flex flex-wrap px-3">
+        <div class="w-1/2 h-64 pr-3 pb-3">
+          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
         </div>
-        <div className="ml-6 mt-10">
-            <img tabIndex={0} src={a} className="w-72 h-80 rounded-lg" alt="guy with sunglasses" />
-            <div className="flex items-start mt-6">
-                <img tabIndex={0} src={f} alt="girl  laughing" className="w-48 h-48 rounded-lg" />
-                <img tabIndex={0} src={a} alt="guy with glasses" className="w-20 h-20 rounded-lg ml-6 object-cover object-fit" />
-            </div>
+        <div class="w-1/2 h-64 pl-3 pb-3">
+          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1529513342590-3b342bb7dd67?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
         </div>
-        <div className="mt-14 ml-6">
-            <div className="lg:flex ">
-                <div>
-                    <img tabIndex={0} src={s} alt="group of friends" className="w-96 h-72 rounded-lg object-center object-fit" />
-                </div>
-                <div>
-                    <div className="flex ml-6">
-                        <img tabIndex={0} src={h} className="w-20 h-20 rounded-lg mt-14" alt="man" />
-                        <img tabIndex={0} src={g} className="w-20 h-24 rounded-lg ml-6" alt="woman" />
-                    </div>
-                    <img tabIndex={0} src={a} alt="boy with blonde hair" className="ml-6 mt-6 w-48 h-32 rounded-lg" />
-                </div>
-            </div>
-            <div className="mt-6 flex">
-                <img tabIndex={0} className="w-48 h-48 rounded-lg" src={t} alt="young girl with red hair" />
-                <img tabIndex={0} className="w-72 h-56 rounded-lg ml-6" src={a} alt="young girl with red hair" />
-            </div>
+        <div class="w-1/2 h-64 pr-3 pt-3">
+          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1489058535093-8f530d789c3b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
         </div>
+        <div class="w-1/2 h-64 pl-3 pt-3">
+          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1602883440931-c268da6122b0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+</section>
   )
 }
 

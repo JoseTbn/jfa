@@ -1,0 +1,47 @@
+body {
+    background: #f2f2f2;
+    color: #424242;
+    position: relative;
+    
+  }
+  
+  .page-content {
+    margin: 500px 0;
+  }
+  #page-content {
+    padding: 400px 0;
+  }
+  .text-slider {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+  
+    span {
+      position: fixed;
+      font-size: 90px;
+      font-weight: bold;
+      top: 50%;
+      transform: translate(calc(50vw - 50%), -50%);
+    }
+  }
+  
+  .banner {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    background-color: #ded6cf;
+  
+    width: 80vw;
+    height: 700px;
+  
+    &.top {
+      top: 0;
+      transform: translate(-50%, 0);
+    }
+  
+    &.bottom {
+      bottom: 0;
+      transform: translate(-50%, 0);
+    }
+  }

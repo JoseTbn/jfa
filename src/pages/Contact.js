@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 const Contact = () => {
   return (
       <>
-    <div className="bg-texture   min-h-screen ">
+    <div className="bg-texture  ">
 <Navbar/>
 <ContactH/>
     </div>

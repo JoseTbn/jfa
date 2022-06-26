@@ -5,13 +5,32 @@ import LeftImg from './LeftImg'
 import BigImg from './projVBigImg'
 import RightImg from './RightImg'
 
+import { motion } from "framer-motion"
+
+
+
+const ImgAnimate ={
+
+  offscreen : { y : 100, opacity : 0} ,
+    onscreen : { y : 0 ,
+      opacity : 1,
+    transition : { type : "spring" ,
+    duration : 1.8 }
+    }
+}
+
+
+
 const ProjVEnd = () => {
   return (
     <>
-    <div className="">
+    <motion.div 
+      initial = {"offscreen"}
+      whileInView= {"onscreen"}
+      viewport={{once:false, amount:0.5}}>
   <div className="container mx-auto">
     <div className="  grid grid-cols-12 gap-10 mb-[60px] lg:mb-[160px]">
-      <div className="col-span-4 lg:col-span-6  mb-[60px] lg:mb-0 last:mb-0 ">
+      <motion.div variants={ImgAnimate} className="col-span-4 lg:col-span-6  mb-[60px] lg:mb-0 last:mb-0 ">
         <div className="relative  aspect-[134/155]">
           <div className="block w-full h-full rounded-[20px] overflow-hidden [transform:translateZ(0)]">
             <span
@@ -57,8 +76,8 @@ const ProjVEnd = () => {
             </span>
           </div>
         </div>
-      </div>
-      <div className="col-span-4 lg:col-span-6  mb-[60px] lg:mb-0 last:mb-0 lg:col-start-7">
+      </motion.div>
+      <motion.div variants={ImgAnimate} className="col-span-4 lg:col-span-6  mb-[60px] lg:mb-0 last:mb-0 lg:col-start-7">
         <div className="relative  aspect-[134/155]">
           <div className="block w-full h-full rounded-[20px] overflow-hidden [transform:translateZ(0)]">
             <span
@@ -105,12 +124,13 @@ const ProjVEnd = () => {
             </span>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   </div>
-</div>
+</motion.div>
 <DoublrCaseText/>
-<BigImg/>
+<motion.div
+><BigImg/></motion.div>
 <RightImg/>
 <LeftImg/>
 <DoublrCaseText/>
