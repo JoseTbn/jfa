@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useRef, useEffect} from 'react'
+import gsap from 'gsap'
 import {useParams} from "react-router-dom"
 import Navbar from '../components/Navbar'
 import EndNextP from '../components/workpages/EndNextP'
@@ -8,12 +9,16 @@ import ProjVEnd from '../components/workpages/ProjVEnd'
 import SlideDownParallax from '../components/workpages/SlideDownParallax'
 import TopTitleSlider from '../components/workpages/topTitleSlider'
 import projetcsData from '../utils/projetcsData'
+import Trasition from '../components/Trasition'
 
 
 
 export const WorkImgs = (props) => {
 
-  
+
+
+
+
   return (
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
@@ -42,8 +47,15 @@ const Work = (props) => {
   
   const thisWork = projetcsData.find(work => work.id === Id) 
  
+
+
+
+
+
+
  return (
-<section className=" min-h-screen bg-texture">
+<section  className=" min-h-screen bg-texture">
+
 <Navbar/>
 
 <TopTitleSlider/>

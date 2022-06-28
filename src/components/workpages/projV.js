@@ -1,10 +1,12 @@
-import React from 'react'
+import React, {useState,useEffect} from 'react'
 import ant from '../../assets/Beige Minimalist Mock Up Design Facebook Cover.png'
 import BigImg from './projVBigImg'
 import { motion } from "framer-motion"
+// import { urlFor, client } from '../../client';
 
 
 
+//framer motion fade up reveal
 const ImgAnimate ={
 
   offscreen : { y : 100, opacity : 0} ,
@@ -19,6 +21,22 @@ const ImgAnimate ={
 
 
 const projV = (props) => {
+  // filtering
+  const [works, setWorks] = useState([]);
+  const [filterWork, setFilterWork] = useState([]);
+  const [activeFilter, setActiveFilter] = useState('All');
+  const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+
+  useEffect(() => {
+    const query = '*[_type == "works"]';
+
+    client.fetch(query).then((data) => {
+      setWorks(data);
+      setFilterWork(data);
+    });
+  }, []);
+  
+  
   return (
     <>
     <BigImg/>

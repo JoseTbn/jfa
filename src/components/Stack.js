@@ -26,38 +26,38 @@ const Stack = () => {
     <div class="flex flex-wrap -mx-3 mb-6 lg:mb-0">
       <div class="w-full lg:w-1/2 flex flex-wrap px-3 mb-6 lg:md-0">
         <div class="w-1/2 h-64 pr-3 pb-3">
-          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+          <img class="h-full object-cover filter grayscale hover:filter-none rounded" src="https://jolicode.com/media/original/2013/10/homepage-docker-logo.png" alt=""/>
         </div>
         <div class="w-1/2 h-64 pl-3 pb-3">
-          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1529513342590-3b342bb7dd67?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+          <img class="h-full filter grayscale hover:filter-none object-fit rounded" src="https://logos-download.com/wp-content/uploads/2018/09/Kubernetes_Logo.png" alt=""/>
         </div>
         <div class="w-1/2 h-64 pr-3 pt-3">
-          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1489058535093-8f530d789c3b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+          <img class="h-full object-cover filter grayscale hover:filter-none rounded" src="https://xavki.blog/wp-content/uploads/2021/10/vagrant-logo.png" alt=""/>
         </div>
         <div class="w-1/2 h-64 pl-3 pt-3">
-          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1602883440931-c268da6122b0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+          <img class="h-full object-cover filter grayscale hover:filter-none rounded" src="https://blog.stephane-robert.info/img/Terraform-logo.png" alt=""/>
         </div>
       </div>
       <div class="w-full lg:w-1/2 px-3">
-        <img class="h-[510px] w-full object-cover rounded" src="https://images.unsplash.com/photo-1501769214405-5e5ee5125a02?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=698&amp;q=80" alt=""/>
+        <img class="h-[510px] w-full object-fit filter grayscale hover:filter-none  rounded" src="https://www.arsouyes.org/user/pages/01.blog/2020/07_Certificats_Gitlab/gitlab_logo.png" alt=""/>
       </div>
     </div>
     <div class="flex flex-wrap -mx-3 mb-6">
       <div class="w-full lg:w-1/2 px-3 order-last lg:order-first mt-6 lg:mt-0">
-        <img class="h-[510px] w-full object-cover rounded" src="https://images.unsplash.com/photo-1501769214405-5e5ee5125a02?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=698&amp;q=80" alt=""/>
+        <img class="h-[510px] w-full object-cover filter grayscale hover:filter-none rounded" src="https://sysreseau.net/wp-content/uploads/2020/05/ansible-2.png" alt=""/>
       </div>
       <div class="w-full lg:w-1/2 flex flex-wrap px-3">
         <div class="w-1/2 h-64 pr-3 pb-3">
-          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+          <img class="h-full  object-center filter grayscale hover:filter-none rounded" src="https://camo.githubusercontent.com/8e503aeddca5ec8eac6ec81c5cc6d65b28682feeda61cca72527834109b254e5/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313630302f312a4c4f46625450325378586346704d5f715473555375772e706e67" alt="jenkins"/>
         </div>
         <div class="w-1/2 h-64 pl-3 pb-3">
-          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1529513342590-3b342bb7dd67?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+          <img class="h-full object-fit filter grayscale hover:filter-none rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/800px-Amazon_Web_Services_Logo.svg.png" alt=""/>
         </div>
         <div class="w-1/2 h-64 pr-3 pt-3">
-          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1489058535093-8f530d789c3b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+          <img class="h-full object-fit filter grayscale hover:filter-none rounded" src="https://custom-one.fr/wp-content/uploads/2021/04/NGINX-logo-rgb-large.png" alt=""/>
         </div>
         <div class="w-1/2 h-64 pl-3 pt-3">
-          <img class="h-full object-cover rounded" src="https://images.unsplash.com/photo-1602883440931-c268da6122b0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt=""/>
+          <img class="h-full object-fit filter grayscale hover:filter-none rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png" alt=""/>
         </div>
       </div>
     </div>

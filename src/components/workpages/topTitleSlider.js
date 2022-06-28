@@ -4,7 +4,8 @@ import React from 'react'
 const TopTitleSlider = () => {
   return (
 <div
-  className=" overflow-x-hidden flex relative w-full"
+  className=" overflow-x-hidden flex relative w-full space-x-32
+  "
   style={{ pauseOnHover: "running", pauseOnClick: "running" }}
 >
   <div
@@ -18,16 +19,16 @@ const TopTitleSlider = () => {
     }}
   >
     <div className=" leading-none flex items-center lg:text-[180px] lg:font-medium overflow-hidden">
-      <h1 className="overflow-hidden">
-        <span>Carv</span>
+      <h1 className="overflow-hidden w-full whitespace-nowrap">
+        <span>Anticip</span>
         <span aria-hidden="true" className="mx-[40px]">
           –
         </span>
-        <span aria-hidden="true">Carv</span>
+        <span aria-hidden="true">Anticip</span>
         <span aria-hidden="true" className="mx-[40px]">
           –
         </span>
-        <span aria-hidden="true">Carv</span>
+        <span aria-hidden="true">Anticip</span>
         <span aria-hidden="true" className="mx-[40px]">
           –
         </span>
@@ -45,16 +46,16 @@ const TopTitleSlider = () => {
     }}
   >
     <div className=" leading-none flex items-center lg:text-[180px] lg:font-medium overflow-hidden">
-      <h1 className="overflow-hidden">
-        <span>Carv</span>
+      <h1 className="overflow-hidden w-full whitespace-nowrap">
+        <span>Anticip</span>
         <span aria-hidden="true" className="mx-[40px]">
           –
         </span>
-        <span aria-hidden="true">Carv</span>
+        <span aria-hidden="true">Anticip</span>
         <span aria-hidden="true" className="mx-[40px]">
           –
         </span>
-        <span aria-hidden="true">Carv</span>
+        <span aria-hidden="true">Anticip</span>
         <span aria-hidden="true" className="mx-[40px]">
           –
         </span>

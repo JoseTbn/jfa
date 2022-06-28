@@ -48,7 +48,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
             >DOCKER</a
-          >,
+          >, 
           <a
                     className=" text-gray-900 border-0 m-0 p-0 no-underline align-baseline"
 

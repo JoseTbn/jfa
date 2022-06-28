@@ -1,11 +1,19 @@
-import React from 'react'
+import React,{useRef, useEffect} from 'react'
+import gsap from 'gsap'
+
+
+
 
 const ContactH = () => {
+  
+                                 
+
+  
   return (
     <div className="fading bg-[color:var(--background-color)] transition-colors duration-1000 ease-in-out">
     <div className="pt-[100px] lg:pt-[160px] " >
-      <div className=" text-center pb-[46px] lg:pb-[140px]">
-        <span className="block text-[12px] lg:text-[14px] mb-[14px] lg:mb-[48px] font-display uppercase font-bebasB tracking-[0.04em]">
+      <div  className=" text-center pb-[46px] lg:pb-[140px]">
+        <span className="block text-[12px] lg:text-[40px] mb-[14px] lg:mb-[48px] font-display uppercase font-bebasB tracking-[0.04em]">
           Get in touch
         </span>
         <div className="container mx-auto">
@@ -32,6 +40,7 @@ const ContactH = () => {
                         position: "relative",
                         transform: "translate(0px, 0px)"
                       }}
+                      
                     >
                       Here to get things done,{" "}
                     </div>
