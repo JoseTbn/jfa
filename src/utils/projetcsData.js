@@ -7,7 +7,7 @@ export default [
 
 {
     id:1,
-    url: '/',
+    url: '/Work',
     src: ant,
     name: 'Anticip',
     desc: 'Landing page',

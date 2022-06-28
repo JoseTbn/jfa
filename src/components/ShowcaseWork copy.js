@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from "react-router-dom";
 import Button from './Button';
 import { motion } from "framer-motion"
-
+import {Link} from 'react-router-dom'
 
 const ImgAnimate ={
 
@@ -39,7 +39,7 @@ const ShowcaseWork2 = (props) => {
      
           >
         
-              <a className="relative block h-full w-full overflow-hidden" href="">
+              <Link to={`/Work/Work:id`} className="relative block h-full w-full overflow-hidden" >
                   <div className="absolute inset-0 w-full h-full">
                           <span style={{boxSizing:"border-box" , display:"block" , overflow:"hidden" , width:"initial" , height:"initial" , background:"none" , opacity:"1" , border:"0" , margin:"0" , padding:"0" , position:"absolute" , top:"0" , left:"0" , bottom:"0" , right:"0"}}>
                             <img className='relative z-10' style={{position:"absolute",inset:"0px",boxSizing:"border-box",padding:"0px",border:"none",margin:"auto",display:"block",width:"0px",height:"0px",minWidth:"100%",maxWidth:"100%",minHeight:"100%",maxHeight:"100%",objectFit:"cover"}} src={props.src} alt="" />
@@ -47,8 +47,8 @@ const ShowcaseWork2 = (props) => {
                   </div>
                   <div className='flex flex-row items-center justify-between mt-z-10 absolute w-full h-full inset-0 bg-black opacity-0 transition-opacity duration-1000 ease-in-out group-hover:opacity-40'>
                   </div>
-              </a>
-<div className="absolute z-10 top-1/2 -translate-y-1/2 pointer-events-none">
+              </Link>
+<div  className="absolute z-10 top-1/2 -translate-y-1/2 pointer-events-none">
     <div className=" relative overflow-hidden">
                             <div className=" w-fit">
                                 <div className=" w-max flex whitespace-nowrap  animate-scrollZ will-change-transform " style={{animationDuration:"8000ms"}}>
