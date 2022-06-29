@@ -2,7 +2,7 @@ import React, {useState,useEffect} from 'react'
 import ant from '../../assets/Beige Minimalist Mock Up Design Facebook Cover.png'
 import BigImg from './projVBigImg'
 import { motion } from "framer-motion"
-// import { urlFor, client } from '../../client';
+import { urlFor, client } from '../../client';
 
 
 

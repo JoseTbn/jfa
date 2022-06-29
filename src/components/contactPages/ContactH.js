@@ -87,10 +87,10 @@ const ContactH = () => {
               <span className="block text-lg leading-6  mb-[20px]">Email us</span>
               <div className="flex items-center text-[12px] lg:text-[28px] font-display">
                 <a
-                  href="mailto:info@serieseight.com"
+                  href="mailto:josebatumeni@gmail.com"
                   className="font-semibold lg:font-light border-[2px] leading-none border-black uppercase px-[10px] lg:px-[16px] pt-[4px] lg:pt-[6px] pb-[2px] rounded-[40px] transition-all duration-500 ease-in-out hover:text-black hover:border-neon hover:bg-neon"
                 >
-                  INFO@SERIESEIGHT.COM
+                  JOSEBATUMENIO@GMAIL.COM
                 </a>
               </div>
             </div>
@@ -138,7 +138,7 @@ const ContactH = () => {
       </div>
       <div
         id="contactForm"
-        className="bg-white pt-[60px] lg:pt-[126px] pb-[62px] lg:pb-[125px]"
+        className="bg-tDark pt-[60px] lg:pt-[126px] pb-[62px] lg:pb-[125px]"
       >
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-10">
@@ -147,7 +147,7 @@ const ContactH = () => {
                 <div className="mb-[32px] lg:mb-[50px]">
                   <label
                     htmlFor="name"
-                    className="block h5 lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
+                    className="block h-5 text-white  lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
                   >
                     What’s your name?{" "}
                     <span className="text-purple text-[12px] inline-block ml-[10px] [vertical-align:super]">
@@ -177,7 +177,7 @@ const ContactH = () => {
                 <div className="mb-[32px] lg:mb-[50px]">
                   <label
                     htmlFor="email"
-                    className="block h5 lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
+                    className="block h-5 text-white  lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
                   >
                     Your email address{" "}
                     <span className="text-purple text-[12px] inline-block ml-[10px] [vertical-align:super]">
@@ -199,7 +199,7 @@ const ContactH = () => {
                 <div className="mb-[32px] lg:mb-[50px]">
                   <label
                     htmlFor="website"
-                    className="block h5 lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
+                    className="block h-5 text-white  lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
                   >
                     Website URL (if applicable){" "}
                   </label>
@@ -218,7 +218,7 @@ const ContactH = () => {
                 <div className="mb-[32px] lg:mb-[50px]">
                   <label
                     htmlFor="hear_from_us"
-                    className="block h5 lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
+                    className="block h-5 text-white  lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
                   >
                     How did you hear bout us?{" "}
                   </label>
@@ -234,10 +234,10 @@ const ContactH = () => {
                     />
                   </div>
                 </div>
-                <div className="mb-[32px] lg:mb-[50px]">
+                <div className=" text-white mb-[32px] lg:mb-[50px]">
                   <label
                     htmlFor="description"
-                    className="block h5 lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
+                    className="block h-5 text-white  lg:l-block text-lg leading-6 mb-5 mb-[18px] lg:mb-[16px]"
                   >
                     Tell us about your project{" "}
                   </label>
@@ -265,12 +265,12 @@ const ContactH = () => {
                     className="w-full lg:w-auto mt-[20px] lg:mt-0 group inline-flex flex-none items-center cursor-pointer"
                   >
                     <div className="flex">
-                      <div className="w-full lg:w-auto flex items-center justify-center pt-[5px] px-[18px] h-[40px] mr-[4px] border-black pb-[2px] border-[2px] uppercase font-display text-[16px] lg:text-[28px] leading-[40px] tracking-wider rounded-[30px]">
+                      <div className=" text-white w-full lg:w-auto flex items-center justify-center pt-[5px] px-[18px] h-[40px] mr-[4px] border-black pb-[2px] border-[2px] uppercase font-display text-[16px] lg:text-[28px] leading-[40px] tracking-wider rounded-[30px]">
                         Send it
                       </div>
                       <div className="flex-none relative overflow-hidden rounded-full border-[2px]  w-[40px] h-[40px] transition-all duration-500 ease-in-out border-black group-hover:bg-neon group-hover:border-neon">
                         <svg
-                          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:translate-x-[50px] group-hover:translate-y-[-50px]"
+                          className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:translate-x-[50px] group-hover:translate-y-[-50px]"
                           width={15}
                           height={15}
                           viewBox="0 0 15 15"
@@ -279,8 +279,8 @@ const ContactH = () => {
                         >
                           <path
                             d="M4.25791 0.642171L4.15894 0.642088L4.15784 0.741056L4.14546 1.85062L4.14433 1.95169L4.2454 1.95174L12.0186 1.95574L0.487182 13.4872L0.416471 13.5579L0.487182 13.6286L1.27089 14.4123L1.3416 14.483L1.41231 14.4123L12.9439 2.88075L12.9519 10.6583L12.952 10.7597L13.0534 10.7582L14.1588 10.7417L14.2574 10.7402L14.2573 10.6416L14.2491 0.750336L14.249 0.650503L14.1492 0.650419L4.25791 0.642171Z"
-                            fill="#16161D"
-                            stroke="#16161D"
+                            fill="#ffffff"
+                            stroke="#ffffff"
                             strokeWidth="0.2"
                           />
                         </svg>
@@ -294,8 +294,8 @@ const ContactH = () => {
                         >
                           <path
                             d="M4.25791 0.642171L4.15894 0.642088L4.15784 0.741056L4.14546 1.85062L4.14433 1.95169L4.2454 1.95174L12.0186 1.95574L0.487182 13.4872L0.416471 13.5579L0.487182 13.6286L1.27089 14.4123L1.3416 14.483L1.41231 14.4123L12.9439 2.88075L12.9519 10.6583L12.952 10.7597L13.0534 10.7582L14.1588 10.7417L14.2574 10.7402L14.2573 10.6416L14.2491 0.750336L14.249 0.650503L14.1492 0.650419L4.25791 0.642171Z"
-                            fill="#16161D"
-                            stroke="#16161D"
+                            fill="#ffffff"
+                            stroke="#ffffff"
                             strokeWidth="0.2"
                           />
                         </svg>
@@ -344,7 +344,7 @@ const ContactH = () => {
         </div>
       </div>
     </div>
-    <div className=" bg-black py-24 px-80 lg:flex-row lg:justify-between xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28" style={{ opacity: 1 }}>
+    <div className=" bg-tDark py-24 px-80 lg:flex-row lg:justify-between xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28" style={{ opacity: 1 }}>
   <div className="mb-4">
     <p className="font-bold text-2xl leading-8 m-0 px-0 pt-0 pb-4 text-white tracking-tight lg:text-5xl xl:text-5xl xl:leading-8">Have a project?</p>
     <div className="flex items-center font-bold hover:opacity-80 2xl:mb-12">
@@ -389,7 +389,7 @@ const ContactH = () => {
           <li>
             <div className="link-wrapper">
               <a
-                className="link hover-1"
+                className="link hover-1 text-white"
                 href="https://dribbble.com/lucavolino"
                 target="_new"
                 data-barba-prevent=""
@@ -401,7 +401,7 @@ const ContactH = () => {
           <li>
             <div className="link-wrapper">
               <a
-                className="link hover-1"
+                className="link hover-1 text-white"
                 href="https://www.behance.net/lucavolino"
                 target="_new"
                 data-barba-prevent=""
@@ -413,7 +413,7 @@ const ContactH = () => {
           <li>
             <div className="link-wrapper">
               <a
-                className="link hover-1"
+                className="link hover-1 text-white"
                 href="https://www.instagram.com/volinodesign"
                 target="_new"
                 data-barba-prevent=""
@@ -425,7 +425,7 @@ const ContactH = () => {
           <li>
             <div className="link-wrapper">
               <a
-                className="link hover-1"
+                className="link hover-1 text-white "
                 href="https://www.linkedin.com/in/luca-volino/"
                 target="_new"
                 data-barba-prevent=""
@@ -437,7 +437,7 @@ const ContactH = () => {
           <li>
             <div className="link-wrapper">
               <a
-                className="link hover-1"
+                className="link hover-1 text-white"
                 href="https://www.facebook.com/volindoesign"
                 target="_new"
                 data-barba-prevent=""
@@ -453,14 +453,14 @@ const ContactH = () => {
         <ul>
           <li>
             <div className="link-wrapper">
-              <a className="link hover-1" href="https://lucavolino.com/about/">
+              <a className="link hover-1 text-white" href="https://lucavolino.com/about/">
                 about
               </a>
             </div>
           </li>
           <li>
             <div className="link-wrapper">
-              <a className="link hover-1" href="https://lucavolino.com/works/">
+              <a className="link hover-1 text-white" href="https://lucavolino.com/works/">
                 works
               </a>
             </div>
@@ -468,7 +468,7 @@ const ContactH = () => {
           <li>
             <div className="link-wrapper">
               <a
-                className="link hover-1"
+                className="link hover-1 text-white"
                 href="https://lucavolino.com/contact/"
               >
                 contact
@@ -478,7 +478,7 @@ const ContactH = () => {
           <li>
             <div className="link-wrapper">
               <a
-                className="link hover-1"
+                className="link hover-1 text-white"
                 href="https://lucavolino.com/privacy-policy/"
               >
                 privacy policy
@@ -488,7 +488,7 @@ const ContactH = () => {
           <li>
             <div className="link-wrapper">
               <a
-                className="link hover-1"
+                className="link hover-1 text-white"
                 href="https://lucavolino.com/cookie-policy/"
               >
                 cookie policy

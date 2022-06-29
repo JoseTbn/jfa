@@ -18,33 +18,29 @@ const Stack = () => {
 
 <section class="py-12 md:py-20">
   <div class="container px-4 mx-auto">
-    {/* <div class="max-w-lg mx-auto mb-12 text-center">
-      <span class="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl">Lorem ipsum</span>
-      <h2 class="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading">Lorem ipsum dolor sit amet consectutar domor</h2>
-      <p class="text-blueGray-400 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.</p>
-    </div> */}
+
     <div class="flex flex-wrap -mx-3 mb-6 lg:mb-0">
       <div class="w-full lg:w-1/2 flex flex-wrap px-3 mb-6 lg:md-0">
         <div class="w-1/2 h-64 pr-3 pb-3">
           <img class="h-full object-cover filter grayscale hover:filter-none rounded" src="https://jolicode.com/media/original/2013/10/homepage-docker-logo.png" alt=""/>
         </div>
         <div class="w-1/2 h-64 pl-3 pb-3">
-          <img class="h-full filter grayscale hover:filter-none object-fit rounded" src="https://logos-download.com/wp-content/uploads/2018/09/Kubernetes_Logo.png" alt=""/>
+          <img class="h-full filter grayscale hover:filter-none object-fit rounded" src="https://logos-download.com/wp-content/uploads/2018/09/Kubernetes_Logo.png" alt="kubernetes"/>
         </div>
         <div class="w-1/2 h-64 pr-3 pt-3">
-          <img class="h-full object-cover filter grayscale hover:filter-none rounded" src="https://xavki.blog/wp-content/uploads/2021/10/vagrant-logo.png" alt=""/>
+          <img class="h-full object-cover filter grayscale hover:filter-none rounded" src="https://xavki.blog/wp-content/uploads/2021/10/vagrant-logo.png" alt="vagrant"/>
         </div>
         <div class="w-1/2 h-64 pl-3 pt-3">
-          <img class="h-full object-cover filter grayscale hover:filter-none rounded" src="https://blog.stephane-robert.info/img/Terraform-logo.png" alt=""/>
+          <img class="h-full object-cover filter grayscale hover:filter-none rounded" src="https://blog.stephane-robert.info/img/Terraform-logo.png" alt="terraform"/>
         </div>
       </div>
       <div class="w-full lg:w-1/2 px-3">
-        <img class="h-[510px] w-full object-fit filter grayscale hover:filter-none  rounded" src="https://www.arsouyes.org/user/pages/01.blog/2020/07_Certificats_Gitlab/gitlab_logo.png" alt=""/>
+        <img class="h-[510px] w-full object-fit filter grayscale hover:filter-none  rounded" src="https://www.arsouyes.org/user/pages/01.blog/2020/07_Certificats_Gitlab/gitlab_logo.png" alt="gitlab"/>
       </div>
     </div>
     <div class="flex flex-wrap -mx-3 mb-6">
       <div class="w-full lg:w-1/2 px-3 order-last lg:order-first mt-6 lg:mt-0">
-        <img class="h-[510px] w-full object-cover filter grayscale hover:filter-none rounded" src="https://sysreseau.net/wp-content/uploads/2020/05/ansible-2.png" alt=""/>
+        <img class="h-[510px] w-full object-cover filter grayscale hover:filter-none rounded" src="https://sysreseau.net/wp-content/uploads/2020/05/ansible-2.png" alt="ansible"/>
       </div>
       <div class="w-full lg:w-1/2 flex flex-wrap px-3">
         <div class="w-1/2 h-64 pr-3 pb-3">
@@ -53,7 +49,7 @@ const Stack = () => {
         <div class="w-1/2 h-64 pl-3 pb-3">
           <img class="h-full object-fit filter grayscale hover:filter-none rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/800px-Amazon_Web_Services_Logo.svg.png" alt=""/>
         </div>
-        <div class="w-1/2 h-64 pr-3 pt-3">
+        <div class="w-1/2 h-52 pr-3 pt-3">
           <img class="h-full object-fit filter grayscale hover:filter-none rounded" src="https://custom-one.fr/wp-content/uploads/2021/04/NGINX-logo-rgb-large.png" alt=""/>
         </div>
         <div class="w-1/2 h-64 pl-3 pt-3">

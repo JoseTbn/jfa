@@ -7,6 +7,8 @@ gsap.registerPlugin(ScrollTrigger)
 import { useLocomotiveScroll } from 'react-locomotive-scroll';
 import roundtxt from "../assets/circletext.f0059cc8.svg";
 import { motion } from "framer-motion";
+import {BsArrowDownCircle} from 'react-icons/bs'
+
 
 const container = {
   hidden: {
@@ -217,10 +219,18 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="border-0 box-border inline-block ml-10 p-0 align-baseline max-w-sm ">
-              <p>
-                <span className="border-0 text-x font-semibold  m-0 p-0 uppercase align-baseline">About</span> I'm a driven person who works hard to attain my goals.The ability to overcome obstacles and follow things through to completion has always been a strong point of mine.
+            <div className="border-0 box-border flex flex-col ml-10 p-0 align-baseline max-w-sm h-full ">
+              <p className="border-0 text-x font-semibold  m-0 p-0  align-baseline">
+                <span className=' uppercase  font-thin' >About</span> I'm a junior devsecops & fullstack developer based in Arlon , Belgium focused on creating interactive digital experiences on the web. Being very inquisitive this year within my graduation I started my transition into the cloud and Infrastructure as code.
               </p>
+
+              <div className="flex w-full align-middle items-center justify-between mt-8">
+                <p className=' '>Scroll down</p>
+
+                <span className="  animate-bounce ">
+                  <BsArrowDownCircle /> 
+                </span>
+              </div>
             </div>
 
 

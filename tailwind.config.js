@@ -45,7 +45,8 @@ module.exports = {
     extend: {
       backgroundImage:{
         texture: `url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')`,
-        darkTexture: `url('https://images.unsplash.com/photo-1602475063211-3d98d60e3b1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')`
+        darkTexture: `url('https://images.unsplash.com/photo-1602475063211-3d98d60e3b1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')`,
+        tDark: `url('./assets/tdark.webp')`
                  },
       fontFamily: {
         'sans': ['Roboto', 'Helvetcica', 'Arial', 'sans-serif'],
@@ -236,8 +237,15 @@ animation: {
     whitespace: ['responsive'],
     width: ['responsive'],
     wordBreak: ['responsive'],
-    zIndex: ['responsive', 'focus-within', 'focus']
+    zIndex: ['responsive', 'focus-within', 'focus'],
+    neumorphismFlat: ['responsive'],
+    neumorphismConcave: false,
+    neumorphismConvex: ['responsive', 'hover'],
+    neumorphismInset: ['focus', 'active'],
   },
-  plugins: ["styled-jsx/babel"],
+  plugins: ["styled-jsx/babel",
+  require('tailwindcss-neumorphism')
+],
+  
 }
 }

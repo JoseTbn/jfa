@@ -34,7 +34,7 @@ const ShowcaseWork2 = (props) => {
         whileInView= {"onscreen"}
         viewport={{once:false, amount:0.5}}
       >
-          <motion.div className="group cursor-pointer relative w-full rounded-[20px] overflow-hidden aspect-[343/400] [transform:translateZ(0)] lg:aspect-[669/783]"
+          <motion.div className=" group cursor-pointer  relative w-full rounded-[20px] overflow-hidden aspect-[343/400] [transform:translateZ(0)] lg:aspect-[669/783]"
             variants={ImgAnimate}
      
           >
