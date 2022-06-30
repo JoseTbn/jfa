@@ -95,8 +95,8 @@ const { scroll } = useLocomotiveScroll();
      <SlideText/>
      <About/>
      <SlideText/>
-     <Contact/>
  
+     <Contact/>
      </section>
     </>
   )

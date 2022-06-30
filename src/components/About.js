@@ -65,6 +65,63 @@ const About = () => {
             rel="noopener noreferrer"
             >TERRAFORM</a>
         </motion.p>
+
+<div className="py-24 px-80 xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28">
+  
+          <motion.div className='  flex flex-row flex-wrap items-baseline justify-between '>
+            <div className="mx-0 mt-0 mb-8 max-w-2xl text-center">
+            <svg className='h-auto mb-5 relative' width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.5">
+                        <path class="rectangle first-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.929 25.2258L24.8823 3.27398L2.83562 25.2258L24.8823 47.1776L46.929 25.2258ZM24.8823 0.45166L0.00110445 25.2258L24.8823 49.9999L49.7635 25.2258L24.8823 0.45166Z" fill="black"></path>
+                        <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
+                      </g>
+                    </svg>
+                    <p class="font-light text-base leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Learn</p>
+                    <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
+                      projects to better respond to their users’ needs. Think outside the box to create a solid and
+                      lasting bond based on collaboration</p>
+            </div>
+            <div className="mx-0 mt-0 mb-8 max-w-2xl text-center">
+            <svg className='h-auto mb-5 relative' width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.5">
+                        <path class="rectangle first-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.929 25.2258L24.8823 3.27398L2.83562 25.2258L24.8823 47.1776L46.929 25.2258ZM24.8823 0.45166L0.00110445 25.2258L24.8823 49.9999L49.7635 25.2258L24.8823 0.45166Z" fill="black"></path>
+                        <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
+                      </g>
+                    </svg>
+                    <p class="font-light text-base leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Learn</p>
+                    <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
+                      projects to better respond to their users’ needs. Think outside the box to create a solid and
+                      lasting bond based on collaboration</p>
+            </div>
+            <div className="mx-0 mt-0 mb-8 max-w-2xl text-center">
+            <svg className='h-auto mb-5 relative' width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.5">
+                        <path class="rectangle first-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.929 25.2258L24.8823 3.27398L2.83562 25.2258L24.8823 47.1776L46.929 25.2258ZM24.8823 0.45166L0.00110445 25.2258L24.8823 49.9999L49.7635 25.2258L24.8823 0.45166Z" fill="black"></path>
+                        <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
+                      </g>
+                    </svg>
+                    <p class="font-light text-base leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Learn</p>
+                    <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
+                      projects to better respond to their users’ needs. Think outside the box to create a solid and
+                      lasting bond based on collaboration</p>
+            </div>
+            <div className="mx-0 mt-0 mb-8 max-w-2xl text-center">
+            <svg className='h-auto mb-5 relative' width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.5">
+                        <path class="rectangle first-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.929 25.2258L24.8823 3.27398L2.83562 25.2258L24.8823 47.1776L46.929 25.2258ZM24.8823 0.45166L0.00110445 25.2258L24.8823 49.9999L49.7635 25.2258L24.8823 0.45166Z" fill="black"></path>
+                        <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
+                      </g>
+                    </svg>
+                    <p class="font-light text-base leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Learn</p>
+                    <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
+                      projects to better respond to their users’ needs. Think outside the box to create a solid and
+                      lasting bond based on collaboration</p>
+            </div>
+          </motion.div>
+</div>
+
+
+
       </motion.section>
 
 <Stack/>

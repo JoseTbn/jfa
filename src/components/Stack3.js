@@ -15,7 +15,964 @@ import  t from "../assets/stacks/tailwind.svg"
 const Stack3 = () => {
   return (
    
-<div className="container mx-auto py-32">
+<div className="bg-dust pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
+  <div className="container mx-auto">
+    <div className=" grid grid-cols-12 gap-10">
+      <div className="col-span-6">
+        <h3 className="m-h5 lg:h5 mb-[20px] lg:mb-0">The tech and tools im confortable working  </h3>
+      </div>
+      <div className="col-span-5">
+        <div>
+          <p className="m-h3 lg:h3 font-semibold text-3xl mx-0 mt-0 mb-5 tracking-tighter lg:font-semibold lg:text-6xl lg:tracking-tighter">
+            Getting things done, and making it fun
+          </p>
+        </div>
+        <div>
+          <p className="sm-paragraph lg:paragraph mb-[30px] lg:mb-[80px]">
+            In our book, full carts equal good business and seamless journeys
+            are what web users dream about - including us. So whether you’re a
+            startup or industry star, we’re here to champion your brand by
+            creating memorable online experiences (the good kind).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex relative w-full gap-x-4 overflow-x-hidden"
+    style={{ pauseOnHover: "running", pauseOnClick: "running" }}
+  >
+    <div
+      className=" flex w-full space-x-5 z-10 items-center animate-scrollZ"
+      style={{
+        play: "running",
+        direction: "normal",
+        duration: "213s",
+        delay: "0s",
+        iterationCount: "infinite"
+      }}
+    >
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={a}
+            src={a}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+            src="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+            src="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+            src="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={s}
+            src={s}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={n}
+            src={n}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={g}
+            src={g}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={c}
+            src={c}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={c}
+            src={c}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            srcSet={m}
+            src={m}
+      
+        
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+
+            srcSet={j}
+            src={j}
+          />
+          <noscript></noscript>
+        </span>
+      </div>
+    </div>
+    
+{/* separation des slider */}
+
+    <div
+      className=" flex w-full space-x-5 z-10 items-center animate-scrollZ"
+      style={{
+        play: "running",
+        direction: "normal",
+        duration: "213s",
+        delay: "0s",
+        iterationCount: "infinite"
+      }}
+    >
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  w-[400px] "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={f}
+            src={f}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={g}
+            src={g}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={c}
+            src={c}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={g}
+            src={g}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            srcSet={a}
+      
+          
+          />
+          <noscript></noscript>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-[16px] lg:mt-[40px] flex relative w-full overflow-x-hidden"
+    style={{ pauseOnHover: "running", pauseOnClick: "running" }}
+  >
+    <div
+      className=" flex w-full space-x-5 z-10 items-center animate-scrollX"
+      style={{
+        play: "running",
+        direction: "reverse",
+        duration: "213s",
+        delay: "0s",
+        iterationCount: "infinite"
+      }}
+    >
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={f}
+            src={f}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={f}
+            src={f}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={f}
+            src={f}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className=" flex w-full space-x-5 z-10 items-center animate-scrollX"
+      style={{
+        play: "running",
+        direction: "reverse",
+        duration: "213s",
+        delay: "0s",
+        iterationCount: "infinite"
+      }}
+    >
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={f}
+            src={f}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={f}
+            src={f}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={f}
+            src={f}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet={j}
+            src={j}
+      
+          
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div className="container mx-auto mt-[80px] lg:mt-[160px]">
+    <div className="text-center">
+      <h3 className="font-semibold text-xl leading-6 mx-0 mt-0 mb-5 tracking-tighter lg:font-semibold lg:text-3xl lg:leading-8 lg:mb-12 lg:tracking-tight">Recognition</h3>
+      <p className="font-semibold text-3xl leading-9 mx-0 mt-0 mb-4 tracking-tighter lg:font-semibold lg:text-6xl lg:mx-auto lg:mb-10 lg:tracking-tighter">
+        Custom builds, from CMS to window dress
+      </p>
+      <p className="font-light text-base leading-5 mx-0 mt-0 mb-10 lg:text-lg lg:leading-6 lg:mx-auto lg:mb-9">
+        Taking exceptional online experiences further than ever before is
+        something that excites us, so we stay up-to-date on digital window
+        dressings and the ever-changing tech under the counter. We’ve built
+        Shopify sites the world over, and Shopify has shopped some of our sites
+        themselves (and they left some medals behind).{" "}
+      </p>
+      <div className="flex items-center justify-around lg:justify-center flex-wrap">
+        <div className="relative h-[80px] lg:h-[100px] flex items-center mx-[20px] lg:mx-[50px]">
+          <div className="relative">
+            <span className=" "
+              style={{
+                boxSizing: "border-box",
+                display: "inline-block",
+                overflow: "hidden",
+                width: 73,
+                height: 21,
+                background: "none",
+                opacity: 1,
+                border: 0,
+                margin: 0,
+                padding: 0,
+                position: "relative"
+              }}
+            >
+              <img
+              className=" bg-white h-60 w-96  "
+                srcSet="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff4126d29c7f665271e1c8d156a83161ea6986627-73x21.svg&w=60&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff4126d29c7f665271e1c8d156a83161ea6986627-73x21.svg&w=256&q=75 2x"
+                src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff4126d29c7f665271e1c8d156a83161ea6986627-73x21.svg&w=256&q=75"
+                decoding="async"
+                data-nimg="fixed"
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  boxSizing: "border-box",
+                  padding: 0,
+                  border: "none",
+                  margin: "auto",
+                  display: "block",
+                  width: 0,
+                  height: 0,
+                  minWidth: "100%",
+                  maxWidth: "100%",
+                  minHeight: "100%",
+                  maxHeight: "100%"
+                }}
+              />
+            </span>
+          </div>
+          <div className="relative top-[-12px] ml-[6px] w-[35px] flex items-center justify-center pt-[3px] pb-[3px] text-[12px] font-semibold leading-none border-black border-[1px] rounded-[10px]">
+            <div>5/5</div>
+          </div>
+        </div>
+        <div className="relative h-[80px] lg:h-[100px] flex items-center mx-[20px] lg:mx-[50px]">
+          <div className="relative">
+            <span className=" "
+              style={{
+                boxSizing: "border-box",
+                display: "inline-block",
+                overflow: "hidden",
+                width: 39,
+                height: 19,
+                background: "none",
+                opacity: 1,
+                border: 0,
+                margin: 0,
+                padding: 0,
+                position: "relative"
+              }}
+            >
+              <img
+              className=" bg-white h-60 w-96  "
+                srcSet="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff0330f8903ce2ba04ccfb3f5a7a7cd6a01c9e301-39x19.svg&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff0330f8903ce2ba04ccfb3f5a7a7cd6a01c9e301-39x19.svg&w=60&q=75 2x"
+                src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff0330f8903ce2ba04ccfb3f5a7a7cd6a01c9e301-39x19.svg&w=60&q=75"
+                decoding="async"
+                data-nimg="fixed"
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  boxSizing: "border-box",
+                  padding: 0,
+                  border: "none",
+                  margin: "auto",
+                  display: "block",
+                  width: 0,
+                  height: 0,
+                  minWidth: "100%",
+                  maxWidth: "100%",
+                  minHeight: "100%",
+                  maxHeight: "100%"
+                }}
+              />
+            </span>
+          </div>
+          <div className="relative top-[-12px] ml-[6px] w-[35px] flex items-center justify-center pt-[3px] pb-[3px] text-[12px] font-semibold leading-none border-black border-[1px] rounded-[10px]">
+            <div>+1</div>
+          </div>
+        </div>
+        <div className="relative h-[80px] lg:h-[100px] flex items-center mx-[20px] lg:mx-[50px]">
+          <div className="relative">
+            <span className=" "
+              style={{
+                boxSizing: "border-box",
+                display: "inline-block",
+                overflow: "hidden",
+                width: 77,
+                height: 25,
+                background: "none",
+                opacity: 1,
+                border: 0,
+                margin: 0,
+                padding: 0,
+                position: "relative"
+              }}
+            >
+              <img
+              className=" bg-white h-60 w-96  "
+                srcSet="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Fe2d1e105f109cb28492476b3363ec3eecb608b7c-77x25.svg&w=60&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Fe2d1e105f109cb28492476b3363ec3eecb608b7c-77x25.svg&w=256&q=75 2x"
+                src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Fe2d1e105f109cb28492476b3363ec3eecb608b7c-77x25.svg&w=256&q=75"
+                decoding="async"
+                data-nimg="fixed"
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  boxSizing: "border-box",
+                  padding: 0,
+                  border: "none",
+                  margin: "auto",
+                  display: "block",
+                  width: 0,
+                  height: 0,
+                  minWidth: "100%",
+                  maxWidth: "100%",
+                  minHeight: "100%",
+                  maxHeight: "100%"
+                }}
+              />
+            </span>
+          </div>
+          <div className="relative top-[-12px] ml-[6px] w-[35px] flex items-center justify-center pt-[3px] pb-[3px] text-[12px] font-semibold leading-none border-black border-[1px] rounded-[10px]">
+            <div>+2</div>
+          </div>
+        </div>
+        <div className="relative h-[80px] lg:h-[100px] flex items-center mx-[20px] lg:mx-[50px]">
+          <div className="relative">
+            <span className=" "
+              style={{
+                boxSizing: "border-box",
+                display: "inline-block",
+                overflow: "hidden",
+                width: 102,
+                height: 17,
+                background: "none",
+                opacity: 1,
+                border: 0,
+                margin: 0,
+                padding: 0,
+                position: "relative"
+              }}
+            >
+              <img
+              className=" bg-white h-60 w-96  "
+                srcSet="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff42941877e194f64e65ad49c27ef36012eaaf080-102x17.svg&w=128&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff42941877e194f64e65ad49c27ef36012eaaf080-102x17.svg&w=256&q=75 2x"
+                src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff42941877e194f64e65ad49c27ef36012eaaf080-102x17.svg&w=256&q=75"
+                decoding="async"
+                data-nimg="fixed"
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  boxSizing: "border-box",
+                  padding: 0,
+                  border: "none",
+                  margin: "auto",
+                  display: "block",
+                  width: 0,
+                  height: 0,
+                  minWidth: "100%",
+                  maxWidth: "100%",
+                  minHeight: "100%",
+                  maxHeight: "100%"
+                }}
+              />
+            </span>
+          </div>
+          <div className="relative top-[-12px] ml-[6px] w-[35px] flex items-center justify-center pt-[3px] pb-[3px] text-[12px] font-semibold leading-none border-black border-[1px] rounded-[10px]">
+            <div>+20</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  )
+}
+
+export default Stack3 
+
+
+
+
+{/* <div className="container mx-auto py-32">
   <div className="py-24 px-80 xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28">
     <p className="font-light text-base leading-8 m-0 p-0 tracking-tight lg:text-lg xl:text-xl xl:leading-8 md:text-xl">Skills &amp; Recognitions</p>
     <p className=" font-bebasB text-3xl  m-0 p-0 text-gray-600 tracking-tight lg:text-5xl xl:text-6xl">
@@ -59,7 +1016,9 @@ const Stack3 = () => {
       <div className="split">
         <div className="award">
           <img
-            src="https://lucavolino.com/wp-content/themes/lucavolino/img/awwwards-black.png"
+          className=" bg-white h-60 w-96  "
+            src="https://lucavolino.com/wp-content/themes/lucavolino/img
+            className=" bg-white h-60 w-96  "/awwwards-black.png"
             width={80}
             alt=""
           />
@@ -71,7 +1030,9 @@ const Stack3 = () => {
         </div>
         <div className="award">
           <img
-            src="https://lucavolino.com/wp-content/themes/lucavolino/img/cssda-black.png"
+          className=" bg-white h-60 w-96  "
+            src="https://lucavolino.com/wp-content/themes/lucavolino/img
+            className=" bg-white h-60 w-96  "/cssda-black.png"
             width={55}
             alt=""
           />
@@ -85,7 +1046,9 @@ const Stack3 = () => {
       <div className="split">
         <div className="award">
           <img
-            src="https://lucavolino.com/wp-content/themes/lucavolino/img/dn-black.png"
+          className=" bg-white h-60 w-96  "
+            src="https://lucavolino.com/wp-content/themes/lucavolino/img
+            className=" bg-white h-60 w-96  "/dn-black.png"
             width={55}
             alt=""
           />
@@ -97,7 +1060,9 @@ const Stack3 = () => {
         </div>
         <div className="award">
           <img
-            src="https://lucavolino.com/wp-content/themes/lucavolino/img/cssfox-black.png"
+          className=" bg-white h-60 w-96  "
+            src="https://lucavolino.com/wp-content/themes/lucavolino/img
+            className=" bg-white h-60 w-96  "/cssfox-black.png"
             width={55}
             alt=""
           />
@@ -110,10 +1075,4 @@ const Stack3 = () => {
       </div>
     </div>
   </div>
-</div>
-
-
-  )
-}
-
-export default Stack3
+</div> */}

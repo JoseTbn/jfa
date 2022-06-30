@@ -10,7 +10,7 @@ const ContactH = () => {
 
   
   return (
-    <div className="fading bg-[color:var(--background-color)] transition-colors duration-1000 ease-in-out">
+    <div className="fading bg-[color:var(--background-color)] transition-colors duration-1000 ease-in-out" style={{ transition: 'color 1s var(--ease-in-out-soft),background-color .65s var(--ease-in-out-soft)'}}>
     <div className="pt-[100px] lg:pt-[160px] " >
       <div  className=" text-center pb-[46px] lg:pb-[140px]">
         <span className="block text-[12px] lg:text-[40px] mb-[14px] lg:mb-[48px] font-display uppercase font-bebasB tracking-[0.04em]">
@@ -138,7 +138,7 @@ const ContactH = () => {
       </div>
       <div
         id="contactForm"
-        className="bg-tDark pt-[60px] lg:pt-[126px] pb-[62px] lg:pb-[125px]"
+        className="bg-tDark bg-fixed pt-[60px] lg:pt-[126px] pb-[62px] lg:pb-[125px]"
       >
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-10">
@@ -254,7 +254,8 @@ const ContactH = () => {
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
-                  <p className="xs-block text-lg leading-6 mb-5">
+                  <p className="xs-block text-lg text-white
+                   leading-6 mb-5">
                     View our{" "}
                     <a className="inline-block underline" href="/privacy-policy">
                       Privacy Policy
@@ -344,7 +345,7 @@ const ContactH = () => {
         </div>
       </div>
     </div>
-    <div className=" bg-tDark py-24 px-80 lg:flex-row lg:justify-between xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28" style={{ opacity: 1 }}>
+    <div className=" bg-tDark bg-fixed py-24 px-80 lg:flex-row lg:justify-between xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28" style={{ opacity: 1 }}>
   <div className="mb-4">
     <p className="font-bold text-2xl leading-8 m-0 px-0 pt-0 pb-4 text-white tracking-tight lg:text-5xl xl:text-5xl xl:leading-8">Have a project?</p>
     <div className="flex items-center font-bold hover:opacity-80 2xl:mb-12">

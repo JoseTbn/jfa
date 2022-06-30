@@ -43,14 +43,30 @@ const Contact = () => {
           </a>
         </div>
 
-                {/* <div class="box-border mx-0 mb-0 mt-12 p-0">
+                <div class="box-border mx-0 mb-0 mt-12 p-0">
                     <a class='bg-no-repeat box-border inline-block font-semibold text-xl mr-1 p-1 uppercase no-underline border-2 border-black   ' href=""><span>LInkedin</span></a>
                     <a class='bg-no-repeat box-border inline-block font-semibold text-xl ml-1 p-1 uppercase no-underline border-2 border-black' href="">
                         <span>
                             Github
                         </span>
                     </a>
-                </div> */}
+                </div>
+                <div class="box-border mx-0 mb-0 mt-12 p-0">
+                    <a class='bg-no-repeat box-border inline-block font-semibold text-xl mr-1 p-1 uppercase no-underline border-2 border-black   ' href=""><span>LInkedin</span></a>
+                    <a class='bg-no-repeat box-border inline-block font-semibold text-xl ml-1 p-1 uppercase no-underline border-2 border-black' href="">
+                        <span>
+                            Github
+                        </span>
+                    </a>
+                </div>
+                <div class="box-border mx-0 mb-0 mt-12 p-0">
+                    <a class='bg-no-repeat box-border inline-block font-semibold text-xl mr-1 p-1 uppercase no-underline border-2 border-black   ' href=""><span>LInkedin</span></a>
+                    <a class='bg-no-repeat box-border inline-block font-semibold text-xl ml-1 p-1 uppercase no-underline border-2 border-black' href="">
+                        <span>
+                            Github
+                        </span>
+                    </a>
+                </div>
 
 
                
