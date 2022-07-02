@@ -45,7 +45,7 @@ const ShowcaseWork2 = (props) => {
                             <img className='relative z-10' style={{position:"absolute",inset:"0px",boxSizing:"border-box",padding:"0px",border:"none",margin:"auto",display:"block",width:"0px",height:"0px",minWidth:"100%",maxWidth:"100%",minHeight:"100%",maxHeight:"100%",objectFit:"cover"}} src={props.src} alt="" />
                             </span>
                   </div>
-                  <div className='flex flex-row items-center justify-between mt-z-10 absolute w-full h-full inset-0 bg-black opacity-0 transition-opacity duration-1000 ease-in-out group-hover:opacity-40'>
+                  <div className='flex flex-row items-center justify-between mt-z-10 absolute w-full h-full inset-0 bg-black opacity-0 transition-opacity duration-1000 ease-in-out hover:opacity-40'>
                   </div>
               </Link>
 <div  className="absolute z-10 top-1/2 -translate-y-1/2 pointer-events-none">
@@ -54,9 +54,9 @@ const ShowcaseWork2 = (props) => {
                                 <div className=" w-max flex whitespace-nowrap  animate-scrollZ will-change-transform " style={{animationDuration:"8000ms"}}>
                                     <div className="flex items-center flex-shrink-0">
                                         <div className="relative overflow-hidden py-[20px]">
-                                            <div className="group-hover:translate-y-0 group-hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
-                                                <span className="font-display inline-block leading-none group-hover:text-red-500  font-bebasB lg:font-normal">{props.name}</span>
-                                                <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out group-hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <div className="hover:translate-y-0 hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
+                                                <span className="font-display inline-block leading-none hover:text-red-500  font-bebasB lg:font-normal">{props.name}</span>
+                                                <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="16" cy="16" r="15.5" fill="#EEEAEA" stroke="#EEEAEA">
                                                     </circle>
                                                     <path d="M13.2859 10.9953L13.1869 10.9952L13.1858 11.0942L13.175 12.0603L13.1739 12.1614L13.2749 12.1614L20.0123 12.1649L9.99334 22.1838L9.92263 22.2545L9.99334 22.3253L10.6758 23.0077L10.7465 23.0784L10.8172 23.0077L20.8362 12.9886L20.8432 19.7297L20.8433 19.8311L20.9447 19.8296L21.9072 19.8152L22.0058 19.8138L22.0057 19.7152L21.9986 11.1024L21.9985 11.0025L21.8986 11.0025L13.2859 10.9953Z" fill="#16161D" stroke="#16161D" stroke-width="0.2">
@@ -68,9 +68,9 @@ const ShowcaseWork2 = (props) => {
 </div>
                                     <div className="flex items-center flex-shrink-0">
                                         <div className="relative overflow-hidden py-[20px]">
-                                            <div className="group-hover:translate-y-0  group-hover:text-red-500  group-hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
+                                            <div className="hover:translate-y-0  hover:text-red-500  hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
                                                 <span className="font-display inline-block leading-none  font-bebasB  lg:font-normal">View Project</span>
-                                                <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out group-hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="16" cy="16" r="15.5" fill="#EEEAEA" stroke="#EEEAEA">
                                                     </circle>
                                                     <path d="M13.2859 10.9953L13.1869 10.9952L13.1858 11.0942L13.175 12.0603L13.1739 12.1614L13.2749 12.1614L20.0123 12.1649L9.99334 22.1838L9.92263 22.2545L9.99334 22.3253L10.6758 23.0077L10.7465 23.0784L10.8172 23.0077L20.8362 12.9886L20.8432 19.7297L20.8433 19.8311L20.9447 19.8296L21.9072 19.8152L22.0058 19.8138L22.0057 19.7152L21.9986 11.1024L21.9985 11.0025L21.8986 11.0025L13.2859 10.9953Z" fill="#16161D" stroke="#16161D" stroke-width="0.2">
@@ -82,9 +82,9 @@ const ShowcaseWork2 = (props) => {
 </div>
                                     <div className="flex items-center flex-shrink-0">
                                         <div className="relative overflow-hidden py-[20px]">
-                                            <div className="group-hover:translate-y-0 group-hover:text-red-500 group-hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
+                                            <div className="hover:translate-y-0 hover:text-red-500 hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
                                                 <span className="font-display inline-block leading-none  font-bebasB  lg:font-normal">View Project</span>
-                                                <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out group-hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="16" cy="16" r="15.5" fill="#EEEAEA" stroke="#EEEAEA">
                                                     </circle>
                                                     <path d="M13.2859 10.9953L13.1869 10.9952L13.1858 11.0942L13.175 12.0603L13.1739 12.1614L13.2749 12.1614L20.0123 12.1649L9.99334 22.1838L9.92263 22.2545L9.99334 22.3253L10.6758 23.0077L10.7465 23.0784L10.8172 23.0077L20.8362 12.9886L20.8432 19.7297L20.8433 19.8311L20.9447 19.8296L21.9072 19.8152L22.0058 19.8138L22.0057 19.7152L21.9986 11.1024L21.9985 11.0025L21.8986 11.0025L13.2859 10.9953Z" fill="#16161D" stroke="#16161D" stroke-width="0.2">
@@ -96,9 +96,9 @@ const ShowcaseWork2 = (props) => {
 </div>
                                     <div className="flex items-center flex-shrink-0">
                                         <div className="relative overflow-hidden py-[20px]">
-                                            <div className="group-hover:translate-y-0 group-hover:text-red-500 group-hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
+                                            <div className="hover:translate-y-0 hover:text-red-500 hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
                                                 <span className="font-display inline-block leading-none  font-bebasB  lg:font-normal">View Project</span>
-                                                <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out group-hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="16" cy="16" r="15.5" fill="#EEEAEA" stroke="#EEEAEA">
                                                     </circle>
                                                     <path d="M13.2859 10.9953L13.1869 10.9952L13.1858 11.0942L13.175 12.0603L13.1739 12.1614L13.2749 12.1614L20.0123 12.1649L9.99334 22.1838L9.92263 22.2545L9.99334 22.3253L10.6758 23.0077L10.7465 23.0784L10.8172 23.0077L20.8362 12.9886L20.8432 19.7297L20.8433 19.8311L20.9447 19.8296L21.9072 19.8152L22.0058 19.8138L22.0057 19.7152L21.9986 11.1024L21.9985 11.0025L21.8986 11.0025L13.2859 10.9953Z" fill="#16161D" stroke="#16161D" stroke-width="0.2">
@@ -117,7 +117,7 @@ const ShowcaseWork2 = (props) => {
 </motion.div>
 <div className="flex justify-between mt-[20px] flex-row items-center">
     <a href="/work/daysmart" className="">
-    <span className="h5 font-bebasB group-hover:text-red-500  text-4xl">{props.name}</span>
+    <span className="h5 font-bebasB hover:text-red-500  text-4xl">{props.name}</span>
 </a>
 <div className="flex items-center null">
     <span className=" font-bebasB">DESIGN<span className="mx-[4px]">-</span>

@@ -31,7 +31,7 @@ const About = () => {
       whileInView= {"onscreen"}
       viewport={{once:false, amount:0.5}}
     transition={{staggerChildren:0.5}}
-    class="border-0 block m-0 px-16 py-80 align-baseline md:text-center">
+    class="border-0 block m-0 px-16 py-60 align-baseline md:text-center">
         <motion.h2   
       variants={textAnimate}
     
@@ -40,30 +40,23 @@ const About = () => {
         <motion.p
            variants={textAnimate}
         class=" font-bebasB text-gray-600 border-0 text-5xl m-0 p-0 tracking-tight align-baseline w-full md:my-0 md:mx-auto">
-          I have worked on some projects; during an intensive training at Becode, a great experience where I improved
-          my skills in the domain of infrastructure as code and cloud computing.
+          I have worked on some projects,  during an intensive training at Becode, a great experience where I improved
+          my skills in the domain of infrastructure as code and cloud computing,
           <a
           className="border-0 m-0 p-0 no-underline align-baseline text-gray-900"
             href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >DOCKER</a
-          >, 
+            > DOCKER </a>, 
           <a
                     className=" text-gray-900 border-0 m-0 p-0 no-underline align-baseline"
 
             href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >VAGRANT</a>
-          and
+            > VAGRANT </a>
+          ,
           <a
                     className="border-0 m-0 p-0 no-underline align-baseline text-gray-900"
-
             href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >TERRAFORM</a>
+            > TERRAFORM, </a>
+             and ensured I am up-to-date with the current key trends within the industry.
         </motion.p>
 
 <div className="py-24 px-80 xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28">
@@ -76,7 +69,7 @@ const About = () => {
                         <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
                       </g>
                     </svg>
-                    <p class="font-light text-base leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Learn</p>
+                    <p class="font-bebasB lg:font-normal leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Observability and Analysis</p>
                     <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
                       projects to better respond to their users’ needs. Think outside the box to create a solid and
                       lasting bond based on collaboration</p>
@@ -88,7 +81,7 @@ const About = () => {
                         <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
                       </g>
                     </svg>
-                    <p class="font-light text-base leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Learn</p>
+                    <p class="font-bebasB lg:font-normal leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">App Definition and Development</p>
                     <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
                       projects to better respond to their users’ needs. Think outside the box to create a solid and
                       lasting bond based on collaboration</p>
@@ -100,7 +93,7 @@ const About = () => {
                         <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
                       </g>
                     </svg>
-                    <p class="font-light text-base leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Learn</p>
+                    <p class="font-bebasB lg:font-normal leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Provisioning</p>
                     <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
                       projects to better respond to their users’ needs. Think outside the box to create a solid and
                       lasting bond based on collaboration</p>
@@ -112,7 +105,31 @@ const About = () => {
                         <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
                       </g>
                     </svg>
-                    <p class="font-light text-base leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Learn</p>
+                    <p class="font-bebasB leading-8 m-0 p-0 xl:text-xl xl:leading-8">Orchestration & Management</p>
+                    <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
+                      projects to better respond to their users’ needs. Think outside the box to create a solid and
+                      lasting bond based on collaboration</p>
+            </div>
+            <div className="mx-0 mt-0 mb-8 max-w-2xl text-center">
+            <svg className='h-auto mb-5 relative' width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.5">
+                        <path class="rectangle first-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.929 25.2258L24.8823 3.27398L2.83562 25.2258L24.8823 47.1776L46.929 25.2258ZM24.8823 0.45166L0.00110445 25.2258L24.8823 49.9999L49.7635 25.2258L24.8823 0.45166Z" fill="black"></path>
+                        <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
+                      </g>
+                    </svg>
+                    <p class="font-bebasB lg:font-normal leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Runtime</p>
+                    <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
+                      projects to better respond to their users’ needs. Think outside the box to create a solid and
+                      lasting bond based on collaboration</p>
+            </div>
+            <div className="mx-0 mt-0 mb-8 max-w-2xl text-center">
+            <svg className='h-auto mb-5 relative' width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.5">
+                        <path class="rectangle first-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.929 25.2258L24.8823 3.27398L2.83562 25.2258L24.8823 47.1776L46.929 25.2258ZM24.8823 0.45166L0.00110445 25.2258L24.8823 49.9999L49.7635 25.2258L24.8823 0.45166Z" fill="black"></path>
+                        <path class="rectangle second-rectangle" fill-rule="evenodd" clip-rule="evenodd" d="M46.9278 24.7741L24.8811 2.82232L2.8344 24.7741L24.8811 46.726L46.9278 24.7741ZM24.8811 0L-0.000116255 24.7741L24.8811 49.5483L49.7623 24.7741L24.8811 0Z" fill="#565656"></path>
+                      </g>
+                    </svg>
+                    <p class="font-bebasB lg:font-normal leading-8 m-0 p-0 lg:text-lg xl:text-xl xl:leading-8">Platform</p>
                     <p>The starting point of every project is research. The ideate phase helps clients re-imagine their
                       projects to better respond to their users’ needs. Think outside the box to create a solid and
                       lasting bond based on collaboration</p>

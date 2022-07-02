@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
  import project from '../utils/projetcsData'
 import dashbordapp from '../assets/stacks/dashbordapp.png'
@@ -9,8 +9,11 @@ import ShowcaseWork2 from './ShowcaseWork copy'
 
 const Works = () => {
   
-  
+ const [activeFilter, setActiveFilter] = useState('All')
+    
+const handleWorkfilter = () => {
 
+}
 
   
     return (
@@ -65,6 +68,11 @@ const Works = () => {
 
 <section class='  h-full  w-full  bg-texture container max-w-screen-sm overflow-hidden px-4 py-24 lg:px-7 lg:pb-14 lg:pt-36 xl:max-w-full ' >      
 
+<div className="flex container mx-auto w-full justify-center space-x-4">
+    {['Web App', 'Web3.0', 'Mobile' , 'DevOps', 'All'].map((item,index)=>(
+        <div className="" key={index} className={` px-8 bg-white rounded  hover:cursor-pointer hover:bg-orange-600 ${activeFilter === item ? 'active:to-blue-700' : '' } `} onClick={()=> handleWorkfilter(item)}>a</div>
+    ))}
+</div>
 
 <div className="grid grid-cols-12 gap-12  container mx-auto ">
     {

@@ -16,7 +16,7 @@ const Stack = () => {
   return (
    
 
-<section class="py-12 md:py-20">
+<section class="py-4 md:py-20">
   <div class="container px-4 mx-auto">
 
     <div class="flex flex-wrap -mx-3 mb-6 lg:mb-0">

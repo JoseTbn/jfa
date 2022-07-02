@@ -19,20 +19,17 @@ const Stack3 = () => {
   <div className="container mx-auto">
     <div className=" grid grid-cols-12 gap-10">
       <div className="col-span-6">
-        <h3 className="m-h5 lg:h5 mb-[20px] lg:mb-0">The tech and tools im confortable working  </h3>
+        <h3 className="m-h5 lg:h5 mb-[20px] lg:mb-0">Tech</h3>
       </div>
       <div className="col-span-5">
         <div>
           <p className="m-h3 lg:h3 font-semibold text-3xl mx-0 mt-0 mb-5 tracking-tighter lg:font-semibold lg:text-6xl lg:tracking-tighter">
-            Getting things done, and making it fun
+          The tech and tools im confortable working
           </p>
         </div>
         <div>
           <p className="sm-paragraph lg:paragraph mb-[30px] lg:mb-[80px]">
-            In our book, full carts equal good business and seamless journeys
-            are what web users dream about - including us. So whether you’re a
-            startup or industry star, we’re here to champion your brand by
-            creating memorable online experiences (the good kind).
+          To secure a challenging position where I can effectively contribute my skills as Software Professional, I’m constantly work on my skills and expertise improvement..
           </p>
         </div>
       </div>
