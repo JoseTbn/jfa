@@ -17,7 +17,7 @@ const Stack3 = () => {
    
 <div className="bg-dust pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
   <div className="container mx-auto">
-    <div className=" grid grid-cols-12 gap-10">
+    <div className=" grid grid-cols-12 gap-10 py-32">
       <div className="col-span-6">
         <h3 className="m-h5 lg:h5 mb-[20px] lg:mb-0">Tech</h3>
       </div>
@@ -761,11 +761,11 @@ const Stack3 = () => {
       </div>
     </div>
   </div>
-  <div className="container mx-auto mt-[80px] lg:mt-[160px]">
+  <div className="container mx-auto mt-[80px] lg:mt-[160px] py-20">
     <div className="text-center">
-      <h3 className="font-semibold text-xl leading-6 mx-0 mt-0 mb-5 tracking-tighter lg:font-semibold lg:text-3xl lg:leading-8 lg:mb-12 lg:tracking-tight">Recognition</h3>
-      <p className="font-semibold text-3xl leading-9 mx-0 mt-0 mb-4 tracking-tighter lg:font-semibold lg:text-6xl lg:mx-auto lg:mb-10 lg:tracking-tighter">
-        Custom builds, from CMS to window dress
+      <h3 className="font-semibold text-xl leading-6 mx-0 mt-0 mb-5 tracking-tighter lg:font-semibold lg:text-3xl lg:leading-8 lg:mb-12 lg:tracking-tight">Certificates</h3>
+      <p className="font-semibold text-3xl leading-none mx-0 mt-0 mb-4  lg:font-bebasB lg:text-6xl lg:mx-auto lg:mb-10 ">
+      To secure a challenging position where I can effectively contribute my skills as Software Professional, I’m constantly work on my skills and expertise improvement
       </p>
       <p className="font-light text-base leading-5 mx-0 mt-0 mb-10 lg:text-lg lg:leading-6 lg:mx-auto lg:mb-9">
         Taking exceptional online experiences further than ever before is

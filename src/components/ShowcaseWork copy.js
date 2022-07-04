@@ -6,9 +6,10 @@ import {Link} from 'react-router-dom'
 
 const ImgAnimate ={
 
-    offscreen : { y : 100, opacity : 0} ,
+    offscreen : { y : -100, opacity : 0 } ,
       onscreen : { y : 0 ,
-        opacity : 1,
+        opacity : 1, 
+        scale : [0.,1],
       transition : { type : "spring" ,
       duration : 0.7 }
       }
@@ -28,7 +29,7 @@ const ShowcaseWork2 = (props) => {
    
     >
         
-        <motion.div className=" "
+        <motion.div className=" smmd:mx-auto "
         
         initial = {"offscreen"}
         whileInView= {"onscreen"}
@@ -115,7 +116,8 @@ const ShowcaseWork2 = (props) => {
     </div>
 </div>
 </motion.div>
-<div className="flex justify-between mt-[20px] flex-row items-center">
+
+<motion.div className="flex justify-between mt-[20px] flex-row items-center" variants={ImgAnimate}>
     <a href="/work/daysmart" className="">
     <span className="h5 font-bebasB hover:text-red-500  text-4xl">{props.name}</span>
 </a>
@@ -126,7 +128,7 @@ const ShowcaseWork2 = (props) => {
 </span>
 <span className=" font-bebasB">DEV</span>
 </div>
-</div>
+</motion.div>
 
         </motion.div>
     </div>

@@ -1,6 +1,21 @@
 import React from 'react'
 
 const LeftImg = () => {
+  const ImgAnimate = {
+
+    offscreen: { y: 100, opacity: 0 },
+    onscreen: {
+      y: 0,
+      opacity: 1,
+      scale : [0,1],
+      transition: {
+        type: "spring",
+        duration: 1.8
+      }
+    }
+  }
+  
+ 
   return (
     <div>
   <div className="container mx-auto">

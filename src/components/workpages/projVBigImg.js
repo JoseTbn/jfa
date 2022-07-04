@@ -4,6 +4,22 @@ import ant from '../../assets/Beige Minimalist Mock Up Design Facebook Cover.png
 
 
 const BigImg = () => {
+  
+  const ImgAnimate = {
+
+    offscreen: { y: 100, opacity: 0 },
+    onscreen: {
+      y: 0,
+      opacity: 1,
+      scale : [0,1],
+      transition: {
+        type: "spring",
+        duration: 1.8
+      }
+    }
+  }
+  
+  
   return (
     <div className="container mx-auto mb-[40px] lg:mt-[70px] lg:mb-[100px]">
     <div className="relative rounded-[20px] w-full overflow-hidden aspect-video [transform:translateZ(0)]">

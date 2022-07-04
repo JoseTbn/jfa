@@ -75,10 +75,10 @@ const ContactH = () => {
                 Schedule a call for
               </span>
               <div className="flex items-center text-[12px] lg:text-[28px] font-display">
-                <button className="font-semibold lg:font-light border-[2px] leading-none border-black uppercase px-[10px] lg:px-[16px] pt-[4px] lg:pt-[6px] pb-[2px] rounded-[40px] mr-[12px] transition-all duration-500 ease-in-out hover:text-black hover:border-neon hover:bg-neon">
+                <button className="font-semibold lg:font-light border-[2px] leading-none border-black uppercase px-[10px] lg:px-[16px] pt-[4px] lg:pt-[6px] pb-[2px] rounded-[40px] mr-[12px] transition-all duration-500 ease-in-out hover:text-black hover:border-orange-500 hover:bg-orange-500">
                   15 minutes
                 </button>
-                <button className="font-semibold lg:font-light border-[2px] leading-none border-black uppercase px-[10px] lg:px-[16px] pt-[4px] lg:pt-[6px] pb-[2px] rounded-[40px] transition-all duration-500 ease-in-out hover:text-black hover:border-neon hover:bg-neon">
+                <button className="font-semibold lg:font-light border-[2px] leading-none border-black uppercase px-[10px] lg:px-[16px] pt-[4px] lg:pt-[6px] pb-[2px] rounded-[40px] transition-all duration-500 ease-in-out hover:text-black hover:border-orange-500 hover:bg-orange-500">
                   30 minutes
                 </button>
               </div>
@@ -88,7 +88,7 @@ const ContactH = () => {
               <div className="flex items-center text-[12px] lg:text-[28px] font-display">
                 <a
                   href="mailto:josebatumeni@gmail.com"
-                  className="font-semibold lg:font-light border-[2px] leading-none border-black uppercase px-[10px] lg:px-[16px] pt-[4px] lg:pt-[6px] pb-[2px] rounded-[40px] transition-all duration-500 ease-in-out hover:text-black hover:border-neon hover:bg-neon"
+                  className="font-semibold lg:font-light border-[2px] leading-none border-black uppercase px-[10px] lg:px-[16px] pt-[4px] lg:pt-[6px] pb-[2px] rounded-[40px] transition-all duration-500 ease-in-out hover:text-black hover:border-orange-500 hover:bg-orange-500"
                 >
                   JOSEBATUMENIO@GMAIL.COM
                 </a>
@@ -100,7 +100,7 @@ const ContactH = () => {
               <span className="inline-block mr-[8px] sm-block text-lg leading-6 mb-5 lg:block text-lg leading-6 mb-5">
                 Alternatively, fill in our form
               </span>
-              <div className="relative overflow-hidden w-[32px] h-[32px] rounded-full border border-black flex items-center justify-center group-hover:bg-neon group-hover:border-neon transition-all duration-500 ease-in-out">
+              <div className="relative overflow-hidden w-[32px] h-[32px] rounded-full border border-black flex items-center justify-center group-hover:bg-orange-500 group-hover:border-orange-500 transition-all duration-500 ease-in-out">
                 <svg
                   className="absolute transition-transform duration-300 ease-in-out top-1/2 left-1/2 -translate-x-1/2 translate-y-[-50px] group-hover:-translate-y-1/2"
                   width={14}
@@ -269,7 +269,7 @@ const ContactH = () => {
                       <div className=" text-white w-full lg:w-auto flex items-center justify-center pt-[5px] px-[18px] h-[40px] mr-[4px] border-black pb-[2px] border-[2px] uppercase font-display text-[16px] lg:text-[28px] leading-[40px] tracking-wider rounded-[30px]">
                         Send it
                       </div>
-                      <div className="flex-none relative overflow-hidden rounded-full border-[2px]  w-[40px] h-[40px] transition-all duration-500 ease-in-out border-black group-hover:bg-neon group-hover:border-neon">
+                      <div className="flex-none relative overflow-hidden rounded-full border-[2px]  w-[40px] h-[40px] transition-all duration-500 ease-in-out border-black group-hover:bg-orange-500 group-hover:border-orange-500">
                         <svg
                           className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:translate-x-[50px] group-hover:translate-y-[-50px]"
                           width={15}
@@ -345,173 +345,7 @@ const ContactH = () => {
         </div>
       </div>
     </div>
-    <div className=" bg-tDark bg-fixed py-24 px-80 lg:flex-row lg:justify-between xl:py-12 xl:px-16 md:py-12 md:px-16 2xl:max-w-full 2xl:py-12 2xl:px-28" style={{ opacity: 1 }}>
-  <div className="mb-4">
-    <p className="font-bold text-2xl leading-8 m-0 px-0 pt-0 pb-4 text-white tracking-tight lg:text-5xl xl:text-5xl xl:leading-8">Have a project?</p>
-    <div className="flex items-center font-bold hover:opacity-80 2xl:mb-12">
-      <a className="inline-block h-8 leading-8 mt-2 relative text-white uppercase no-underline" href="https://lucavolino.com/contact">
-        Let’s make something together!
-      </a>
-      <svg
-        className="arrow-icon"
-        xmlns="http://www.w3.org/2000/svg"
-        width={32}
-        height={32}
-        viewBox="0 0 32 32"
-      >
-        <g
-          fill="none"
-          stroke="#fff"
-          strokeWidth="1.5"
-          strokeLinejoin="round"
-          strokeMiterlimit={10}
-        >
-          <path
-            className="arrow-icon--arrow"
-            d="M16.14 9.93L22.21 16l-6.07 6.07M7.23 16h14.58"
-          />
-        </g>
-      </svg>
-    </div>
-    <div className="font-light text-base leading-8 m-0 p-0 text-white lg:text-lg xl:text-xl xl:leading-8">
-      <p>© 2021 Batumeni jose </p>
-    </div>
-  </div>
-  <div className="mb-4">
-    <div className="font-light text-base leading-8 m-0 p-0 text-white lg:text-lg xl:text-xl xl:leading-8">
-      <p>© 2020 Batumeni jose </p>
-    </div>
-  </div>
-  <div className="mb-4">
-    <div className="flex">
-      <div className="footer-list">
-        <p>Social</p>
-        <ul>
-          <li>
-            <div className="link-wrapper">
-              <a
-                className="link hover-1 text-white"
-                href="https://dribbble.com/lucavolino"
-                target="_new"
-                data-barba-prevent=""
-              >
-                dribbble
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="link-wrapper">
-              <a
-                className="link hover-1 text-white"
-                href="https://www.behance.net/lucavolino"
-                target="_new"
-                data-barba-prevent=""
-              >
-                behance
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="link-wrapper">
-              <a
-                className="link hover-1 text-white"
-                href="https://www.instagram.com/volinodesign"
-                target="_new"
-                data-barba-prevent=""
-              >
-                instagram
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="link-wrapper">
-              <a
-                className="link hover-1 text-white "
-                href="https://www.linkedin.com/in/luca-volino/"
-                target="_new"
-                data-barba-prevent=""
-              >
-                linkedin
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="link-wrapper">
-              <a
-                className="link hover-1 text-white"
-                href="https://www.facebook.com/volindoesign"
-                target="_new"
-                data-barba-prevent=""
-              >
-                facebook
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div className="footer-list">
-        <p>Navigation</p>
-        <ul>
-          <li>
-            <div className="link-wrapper">
-              <a className="link hover-1 text-white" href="https://lucavolino.com/about/">
-                about
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="link-wrapper">
-              <a className="link hover-1 text-white" href="https://lucavolino.com/works/">
-                works
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="link-wrapper">
-              <a
-                className="link hover-1 text-white"
-                href="https://lucavolino.com/contact/"
-              >
-                contact
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="link-wrapper">
-              <a
-                className="link hover-1 text-white"
-                href="https://lucavolino.com/privacy-policy/"
-              >
-                privacy policy
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="link-wrapper">
-              <a
-                className="link hover-1 text-white"
-                href="https://lucavolino.com/cookie-policy/"
-              >
-                cookie policy
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div className="mb-4 font-bold text-base leading-8 m-0 p-0 text-white lg:text-lg xl:text-xl xl:leading-8">
-    <p>Languages</p>
-    <div className="split"></div>
-    <div className="footer-logo">
-      <img
-        src="https://lucavolino.com/wp-content/themes/lucavolino/img/logo.svg"
-        width={30}
-        alt=""
-      />
-    </div>
-  </div>
-</div>
+   
 
   </div>
   

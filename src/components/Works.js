@@ -66,15 +66,16 @@ const handleWorkfilter = () => {
         }
 </section> */}
 
-<section class='  h-full  w-full  bg-texture container max-w-screen-sm overflow-hidden px-4 py-24 lg:px-7 lg:pb-14 lg:pt-36 xl:max-w-full ' >      
+<section class='  h-full  smmd:mx-auto w-full  bg-texture container max-w-screen-sm overflow-hidden px-4 py-24 lg:px-7 lg:pb-14 lg:pt-36 xl:max-w-full ' >      
 
-<div className="flex container mx-auto w-full justify-center space-x-4">
+<div className="flex container mx-auto w-full justify-center space-x-4 py-20
+">
     {['Web App', 'Web3.0', 'Mobile' , 'DevOps', 'All'].map((item,index)=>(
-        <div className="" key={index} className={` px-8 bg-white rounded  hover:cursor-pointer hover:bg-orange-600 ${activeFilter === item ? 'active:to-blue-700' : '' } `} onClick={()=> handleWorkfilter(item)}>a</div>
+        <div className="" key={index} className={` px-8 bg-white rounded  hover:cursor-pointer hover:bg-orange-600 ${activeFilter === item ? 'active:to-blue-700' : '' } `} onClick={()=> handleWorkfilter(item)}>{item}</div>
     ))}
 </div>
 
-<div className="grid grid-cols-12 gap-12  container mx-auto ">
+<div className="grid  grid-cols-1 gap-5 lg:grid-cols-12 lg:gap-12  container mx-auto ">
     {
                 project.map((project) => (
     

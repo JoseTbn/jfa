@@ -15,6 +15,7 @@ const ImgAnimate = {
   onscreen: {
     y: 0,
     opacity: 1,
+    scale : [0,1],
     transition: {
       type: "spring",
       duration: 1.8

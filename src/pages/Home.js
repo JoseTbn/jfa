@@ -13,6 +13,7 @@ import SelectiveRenderTargets from '../components/SelectiveRenderTargets'
 import Stack from '../components/Stack2'
 import Stack3 from '../components/Stack3'
 import Stack4 from '../components/Stack4'
+import Footer from '../components/Footer'
 
 
 
@@ -87,16 +88,23 @@ const { scroll } = useLocomotiveScroll();
      
      
       
-       <SlideText/>
+       <SlideText
+       name='Works'
+       punchline='Out of the box'
+       />
      <Works/>
       <Stack3/>
      {/* <Shop/>  */}
      {/* <section className=' h-max w-full pt-1  ' style={{ backgroundImage: "url('https://images.unsplash.com/photo-1640964828933-eb242cc56681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1557&q=80')" }}> */}
-     <SlideText/>
+     <SlideText
+     name='About'
+     punchline='Out of the box'
+
+     />
      <About/>
-     <SlideText/>
  
      <Contact/>
+     <Footer/>
      </section>
     </>
   )
