@@ -10,6 +10,7 @@ import SlideDownParallax from '../components/workpages/SlideDownParallax'
 import TopTitleSlider from '../components/workpages/topTitleSlider'
 import projetcsData from '../utils/projetcsData'
 import Trasition from '../components/Trasition'
+import Panels from '../components/panels'
 
 
 
@@ -20,7 +21,9 @@ export const WorkImgs = (props) => {
 
 
   return (
-<section class="text-gray-600 body-font">
+    <> 
+  <Panels/>
+    <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="lg:w-2/3 mx-auto">
       <div class="flex flex-wrap w-4/5 h-4/5  m-auto rounded-lg bg-white py-60 px-10 relative  mb-60">
@@ -34,6 +37,7 @@ export const WorkImgs = (props) => {
     </div>
   </div>
 </section>
+</>
   )
 }
 

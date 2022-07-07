@@ -9,7 +9,7 @@ import ScrollTriggerProxy from "./components/ScrollTriggerProxy";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { AnimatePresence } from "framer-motion";
-import CustomCursorManager from "./CustomCursor/context/manager.js";
+import Cursor from "./CustomCursor/cursor";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Circle } from "./hooks/Circle";
@@ -58,6 +58,7 @@ function App() {
       <AnimatePresence>{loaded ? null : <Loader />}</AnimatePresence>
       <ScrollTriggerProxy />
       <AnimatePresence exitbeforeEnter>
+      <Cursor/>
         <Routes ref={containerRef}>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<AboutPage />} />

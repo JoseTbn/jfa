@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger)
 import { useLocomotiveScroll } from 'react-locomotive-scroll';
 import roundtxt from "../assets/circletext.f0059cc8.svg";
 import { motion } from "framer-motion";
-import {BsArrowDownCircle} from 'react-icons/bs'
+import { BsArrowDownCircle } from 'react-icons/bs'
 
 
 const container = {
@@ -33,7 +33,7 @@ const item = {
 };
 
 const Hero = () => {
-  
+
   const { scroll } = useLocomotiveScroll();
 
   const scrollRef = useRef(null);
@@ -95,40 +95,37 @@ const Hero = () => {
   //   return () => scroll.destroy;
   // }, []);
 
-  
+
 
   useEffect(() => {
     const el = scrollRef.current;
-    tl.from(el, { 
-      duration: 1.5,
-      delay: 4,
-      yPercent: 200,
-      
+    tl.from(el, {
+      duration: 0.7,
+      scaleX: 400
+
     })
   }, []);
 
   return (
     <>
-      <section  class="  bg-texture   h-full ">
+      <section class="  bg-texture   h-full ">
 
 
 
+        <div class="flex flex-col  border-0  mx-0 mt-0 mb-40 py-0 px-16 align-baseline -space-y-20 ">
+          <div
+            className="relative flex  justify-start m-0 py-0 pl-0 pr-10 align-baseline h-1/2 ">
+            <div
 
+              id="title"
+              className="  "
 
-        <div   class="flex flex-col  border-0  mx-0 mt-0 mb-40 py-0 px-16 align-baseline -space-y-12 ">
-          <div 
-             className="relative flex  justify-start m-0 py-0 pl-0 pr-10 align-baseline h-1/2 ">
-            <div  
-            
-            id="title"
-             className="  "
-           
               data-scroll=""
               data-scroll-position="top"
               data-scroll-direction="horizontal"
               data-scroll-speed="9"
             >
-              <p className=" tracking-tighter  ">
+              <p className=" tracking-tighter   ">
                 <span className="border-0 box-border m-0 p-0 align-baseline  lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   D
                 </span>
@@ -141,17 +138,18 @@ const Hero = () => {
                 <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700    text-gray-600    ">
                   S
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
+                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700  z-30   text-gray-600   ">
                   E
                 </span>
-                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700    text-gray-600    ">
+                <span className="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl  font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700 z-30   text-gray-600    ">
                   C
                 </span>
+               
               </p>
 
-
             </div>
-            <span class="border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl text-gray-600 transform  scale-105 ">—</span>
+
+            <span class="  border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl text-gray-600 transform will-change-scroll scale-105 ">—</span>
             <div data-scroll=""
               data-scroll-position="top"
               data-scroll-direction="horizontal"
@@ -167,19 +165,27 @@ const Hero = () => {
                   S
                 </span>
               </p>
+
             </div>
+        
           </div>
+    {/* <span className=" z-0 lg:text-[600px]  mt-18 ml-80 fixed  text-gray-500 md:text-8xl  "
+                  style={{
+                    WebkitTextStroke: '0.8px #000',
+                    color: 'transparent'
+                  }} > &
+                </span> */}
 
           <div className=" flex justify-between w-full items-center h-1/2"
-              data-scroll=""
-              data-scroll-position="top"
-              data-scroll-direction="horizontal"
-              data-scroll-speed="15"
+            data-scroll=""
+            data-scroll-position="top"
+            data-scroll-direction="horizontal"
+            data-scroll-speed="15"
           >
 
             <div className="border-0 box-border inline-block m-0 p-0 align-baseline  flex-auto  ">
               <p className="tracking-tighter  lg:text-16xl md:text-4xl   font-bebasB font-extrabold  ">
-                
+
                 <span className="border-0 box-border m-0  align-baseline  lg:text-16xl md:text-4xl   font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
                   F
                 </span>
@@ -228,7 +234,7 @@ const Hero = () => {
                 <p className=' '>Scroll down</p>
 
                 <span className="  animate-bounce ">
-                  <BsArrowDownCircle /> 
+                  <BsArrowDownCircle />
                 </span>
               </div>
             </div>
@@ -239,7 +245,7 @@ const Hero = () => {
 
           <div className="border-0 box-border justify-between m-0 p-0 align-baseline w-full md:flex">
 
-         
+
 
           </div>
         </div>

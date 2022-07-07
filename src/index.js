@@ -15,9 +15,7 @@ root.render(
   <React.StrictMode>
   <BrowserRouter>
   <ParallaxProvider>
-  <Curtains pixelRatio={Math.min(1.5, window.devicePixelRatio)}>
       <App />
-    </Curtains>
 </ParallaxProvider>
 </BrowserRouter>,
   </React.StrictMode>

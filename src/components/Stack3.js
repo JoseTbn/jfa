@@ -9,30 +9,59 @@ import  m from "../assets/stacks/mongo.svg"
 import  s from "../assets/stacks/sass.svg"
 import  n from "../assets/stacks/node.svg"
 import  t from "../assets/stacks/tailwind.svg"
+import {motion} from "framer-motion"
+
+
+const textAnimate ={
+
+  offscreen : { y : 100, opacity : 0} ,
+    onscreen : { y : 0 ,
+      opacity : 1,
+      scale : [0.,1],
+    transition : { type : "spring" ,
+    bounce : 0.1 ,
+    duration : 0.8 }
+    }
+}
+const textreveal ={
+
+  offscreen : {   y : 200,opacity : 0} ,
+    onscreen : {  y : 0,
+      opacity : 1,
+    transition : { type: 'spring' ,
+    bounce : 0.1 ,
+    duration : 1.2 }
+    }
+}
 
 
 
 const Stack3 = () => {
   return (
    
-<div className="bg-dust pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
+<motion.div 
+ initial = {"offscreen"}
+ whileInView= {"onscreen"}
+ viewport={{once:false, amount:0.2}}
+transition={{staggerChildren:0.5}}
+className="bg-dust pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
   <div className="container mx-auto">
     <div className=" grid grid-cols-12 gap-10 py-32">
       <div className="col-span-6">
         <h3 className="m-h5 lg:h5 mb-[20px] lg:mb-0">Tech</h3>
       </div>
-      <div className="col-span-5">
+      <motion.div variants={textAnimate} className="col-span-5">
         <div>
-          <p className="m-h3 lg:h3 font-semibold text-3xl mx-0 mt-0 mb-5 tracking-tighter lg:font-semibold lg:text-6xl lg:tracking-tighter">
+          <p variants={textAnimate} className="m-h3 lg:h3 font-bebasB text-3xl mx-0 mt-0 mb-5 tracking-tighter lg:font-semibold lg:text-6xl lg:tracking-tighter">
           The tech and tools im confortable working
           </p>
         </div>
         <div>
-          <p className="sm-paragraph lg:paragraph mb-[30px] lg:mb-[80px]">
-          To secure a challenging position where I can effectively contribute my skills as Software Professional, I’m constantly work on my skills and expertise improvement..
-          </p>
+          <mp className="sm-paragraph lg:paragraph mb-[30px] lg:mb-[80px]">
+          To secure a challenging position where I can effectively contribute my skills as a Software Professional, I’m constantly learning and working on my skills and expertise improvement..
+          </mp>
         </div>
-      </div>
+      </motion.div>
     </div>
   </div>
   <div
@@ -761,8 +790,13 @@ const Stack3 = () => {
       </div>
     </div>
   </div>
-  <div className="container mx-auto mt-[80px] lg:mt-[160px] py-20">
-    <div className="text-center">
+  <motion.div 
+   initial = {"offscreen"}
+   whileInView= {"onscreen"}
+   viewport={{once:false, amount:0.2}}
+  transition={{staggerChildren:0.5}}
+  className="container mx-auto mt-[80px] lg:mt-[160px] py-20">
+    <motion.div  variants={textAnimate} className="text-center">
       <h3 className="font-semibold text-xl leading-6 mx-0 mt-0 mb-5 tracking-tighter lg:font-semibold lg:text-3xl lg:leading-8 lg:mb-12 lg:tracking-tight">Certificates</h3>
       <p className="font-semibold text-3xl leading-none mx-0 mt-0 mb-4  lg:font-bebasB lg:text-6xl lg:mx-auto lg:mb-10 ">
       To secure a challenging position where I can effectively contribute my skills as Software Professional, I’m constantly work on my skills and expertise improvement
@@ -956,9 +990,9 @@ const Stack3 = () => {
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </motion.div>
+  </motion.div>
+</motion.div>
 
 
   )

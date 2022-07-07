@@ -14,6 +14,7 @@ import Stack from '../components/Stack2'
 import Stack3 from '../components/Stack3'
 import Stack4 from '../components/Stack4'
 import Footer from '../components/Footer'
+import Cursor from '../CustomCursor/cursor'
 
 
 
@@ -38,7 +39,7 @@ const { scroll } = useLocomotiveScroll();
    return  (
      <>
      <Navbar/>
-    <section  data-scroll-container className=" min-h-screen scroll-smooth  bg-texture  ">
+    <section  data-scroll-container className=" min-h-screen scroll-smooth  bg-texture cursor-none ">
      {/* <section 
      
      className=' scroll-smooth  h-screen w-full flex flex-col  bg-texture relative   '  > */}
