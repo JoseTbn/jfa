@@ -3,7 +3,7 @@ import React from 'react'
 const EndNextP = () => {
   return (
     <div className="builder-last-block">
-    <div className="bg-black pb-[60px] lg:pb-[166px]">
+    <div className="bg-tDark  pb-[60px] lg:pb-[166px]">
       <div className="container mx-auto">
         <div className=" grid grid-cols-12 gap-10">
           <div className="relative pt-[40px] lg:pt-[80px] col-span-4 lg:col-span-1 mb-[60px] lg:mb-0">

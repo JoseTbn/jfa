@@ -7,7 +7,7 @@ import ContactForm from './ContactForm'
 
 const Contact = () => {
   return (
-    <section className=' h-screen  ' >
+    <section className=' h-full ' >
 
 
             <div className="box-border mx-auto mt-28 flex flex-col  w-4/5 h-3/5 px-4  py-12  m-auto p-0">

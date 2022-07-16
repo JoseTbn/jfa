@@ -10,8 +10,8 @@ const ContactH = () => {
 
   
   return (
-    <div className="fading bg-[color:var(--background-color)] transition-colors duration-1000 ease-in-out" style={{ transition: 'color 1s var(--ease-in-out-soft),background-color .65s var(--ease-in-out-soft)'}}>
-    <div className="pt-[100px] lg:pt-[160px] " >
+    
+    <div className="pt-[100px] lg:pt-[160px] h-screen " >
       <div  className=" text-center pb-[46px] lg:pb-[140px]">
         <span className="block text-[12px] lg:text-[40px] mb-[14px] lg:mb-[48px] font-display uppercase font-bebasB tracking-[0.04em]">
           Get in touch
@@ -347,7 +347,7 @@ const ContactH = () => {
     </div>
    
 
-  </div>
+  
   
   )
 }

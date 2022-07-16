@@ -73,35 +73,35 @@ const InfoStyles = styled.div`
 const Info = ()=>{
     return(
         <InfoStyles data-scroll-section  className="info">
-            <div className="info-main">
-                <h2>Languages</h2>
+            <div className="  ">
+                <h2 className="text-3xl font-bebasB " >Languages</h2>
                 <p>TypeScript, JavaScript(ES6+), HTML, CSS/Scss/Sass, Python, SQL</p>
-                <h2>Frameworks/Libraries/Others</h2>
+                <h2 className="text-3xl font-bebasB " >Frameworks/Libraries/Others</h2>
                 <p>React.js, Vue.js, Firebase, Framer Motion, GSAP, Styled Components, Webpack, Git, Command Line, Babel, NPM, PWA, Node.js</p>
-                <h2>UI/UX</h2>
+                <h2 className="text-3xl font-bebasB " >UI/UX</h2>
                 <p>Responsive Design, Prototyping, Wireframing, Figma, Adobe Xd, Interview, Survey, Usability Testing</p>
-                <h2>Learning</h2>
+                <h2 className="text-3xl font-bebasB " >Learning</h2>
                 <p>Node.js, Gatsby.js, Java</p>
-                <h2>Other Skills</h2>
+                <h2 className="text-3xl font-bebasB " >Other Skills</h2>
                 <p>CPR/AED, American Sign Language, Mandarin, Content Creation, Media Management</p>
-                <h2>Volunteer/Organizations</h2>
+                <h2 className="text-3xl font-bebasB " >Volunteer/Organizations</h2>
                 <p>Lambda Chi Alpha, Special Olympics, Feeding America</p>
-                <h2>Education</h2>
+                <h2 className="text-3xl font-bebasB " >Education</h2>
                 <p>Master of Information <br/>Information Systems <br/>University of Toronto Exp. June 2021</p>
                 <p>Bachelor of Science <br/>Communications, American Studies <br/>Boston University May 2018</p>
             </div>
-            <div className="info-credits">
-                <h1>Credits</h1>
+            <div >
+                <h1 className="text-3xl font-bebasB " >Credits</h1>
                 <p>I developed this website with React.js. Animations are powered by Framer Motion.</p>
                 <p>Thanks goes out to the following sites/individuals for inspirations and your words of encouragement. I only learn from the best.</p>
-                <h2><a href="https://pitchfork.com/reviews/albums/jay-z-444/" target="_blank" rel="noreferrer">Jay-Z's 4:44</a></h2>
-                <h2><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" rel="noreferrer">Rick Astley</a></h2>
-                <h2><a href="https://www.loftgarten.co/" target="_blank" rel="noreferrer">Loftgarten</a></h2>
-                <h2><a href="http://www.iaragrinspun.com/" target="_blank" rel="noreferrer">Iara Grinspun</a></h2>
-                <h2><a href="https://romainavalle.com/" target="_blank" rel="noreferrer">Romain Avalle</a></h2>
-                <h2><a href="https://loerarchitecten.com/en/" target="_blank" rel="noreferrer">Loer Architecten</a></h2>
-                <h2><a href="https://www.behance.net/martiniidesign" rel="noreferrer" target="_blank">Stefan Martinovic</a></h2>
-                <h2><a href="https://lorenzocadamuro.com/" target="_blank" rel="noreferrer">Lorenzo Cadamuro</a></h2>
+                <h2 className="text-3xl font-bebasB " ><a href="https://pitchfork.com/reviews/albums/jay-z-444/" target="_blank" rel="noreferrer">Jay-Z's 4:44</a></h2>
+                <h2 className="text-3xl font-bebasB " ><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" rel="noreferrer">Rick Astley</a></h2>
+                <h2 className="text-3xl font-bebasB " ><a href="https://www.loftgarten.co/" target="_blank" rel="noreferrer">Loftgarten</a></h2>
+                <h2 className="text-3xl font-bebasB " ><a href="http://www.iaragrinspun.com/" target="_blank" rel="noreferrer">Iara Grinspun</a></h2>
+                <h2 className="text-3xl font-bebasB " ><a href="https://romainavalle.com/" target="_blank" rel="noreferrer">Romain Avalle</a></h2>
+                <h2 className="text-3xl font-bebasB " ><a href="https://loerarchitecten.com/en/" target="_blank" rel="noreferrer">Loer Architecten</a></h2>
+                <h2 className="text-3xl font-bebasB " ><a href="https://www.behance.net/martiniidesign" rel="noreferrer" target="_blank">Stefan Martinovic</a></h2>
+                <h2 className="text-3xl font-bebasB " ><a href="https://lorenzocadamuro.com/" target="_blank" rel="noreferrer">Lorenzo Cadamuro</a></h2>
             </div>
         </InfoStyles>
     )

@@ -48,7 +48,7 @@ className="bg-dust pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
   <div className="container mx-auto">
     <div className=" grid grid-cols-12 gap-10 py-32">
       <div className="col-span-6">
-        <h3 className="m-h5 lg:h5 mb-[20px] lg:mb-0">Tech</h3>
+        <h3 className="m-h5 lg:h5 mb-[20px] lg:mb-0 text-3xl font-semibold py-6  ">Tech</h3>
       </div>
       <motion.div variants={textAnimate} className="col-span-5">
         <div>

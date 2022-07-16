@@ -125,8 +125,8 @@ const AboutPage = () => {
         </div>
         <Info />
         <div data-scroll-section className="contact">
-          <h1>Got Some Ideas?</h1>
-          <a href="mailto: ronnie@ronniefeng.com">Let's Talk.</a>
+          <h1 className="text-3xl font-bebasB ">Got Some Ideas?</h1>
+          <a className="text-3xl font-bebasB " href="mailto: ronnie@ronniefeng.com">Let's Talk.</a>
         </div>
       </AboutStyles>
     </section>

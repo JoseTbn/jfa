@@ -52,11 +52,11 @@ const ShowcaseWork2 = (props) => {
 <div  className="absolute z-10 top-1/2 -translate-y-1/2 pointer-events-none">
     <div className=" relative overflow-hidden">
                             <div className=" w-fit">
-                                <div className=" w-max flex whitespace-nowrap  animate-scrollZ will-change-transform " style={{animationDuration:"8000ms"}}>
+                                <div className=" w-max flex whitespace-nowrap  animate-scrollZ will-change-transform " >
                                     <div className="flex items-center flex-shrink-0">
                                         <div className="relative overflow-hidden py-[20px]">
-                                            <div className="hover:translate-y-0 hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
-                                                <span className="font-display inline-block leading-none hover:text-red-500  font-bebasB lg:font-normal">{props.name}</span>
+                                            <div className="hover:translate-y-0 hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-black will-change-transform text-[40px] lg:text-[82px]">
+                                                <span className="font-display inline-block leading-none hover:text-orange-500  font-bebasB lg:font-normal">{props.name}</span>
                                                 <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="16" cy="16" r="15.5" fill="#EEEAEA" stroke="#EEEAEA">
                                                     </circle>
@@ -69,7 +69,7 @@ const ShowcaseWork2 = (props) => {
 </div>
                                     <div className="flex items-center flex-shrink-0">
                                         <div className="relative overflow-hidden py-[20px]">
-                                            <div className="hover:translate-y-0  hover:text-red-500  hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
+                                            <div className="hover:translate-y-0  hover:text-orange-500  hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-black will-change-transform text-[40px] lg:text-[82px]">
                                                 <span className="font-display inline-block leading-none  font-bebasB  lg:font-normal">View Project</span>
                                                 <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="16" cy="16" r="15.5" fill="#EEEAEA" stroke="#EEEAEA">
@@ -83,7 +83,7 @@ const ShowcaseWork2 = (props) => {
 </div>
                                     <div className="flex items-center flex-shrink-0">
                                         <div className="relative overflow-hidden py-[20px]">
-                                            <div className="hover:translate-y-0 hover:text-red-500 hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
+                                            <div className="hover:translate-y-0 hover:text-orange-500 hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-black will-change-transform text-[40px] lg:text-[82px]">
                                                 <span className="font-display inline-block leading-none  font-bebasB  lg:font-normal">View Project</span>
                                                 <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="16" cy="16" r="15.5" fill="#EEEAEA" stroke="#EEEAEA">
@@ -97,7 +97,7 @@ const ShowcaseWork2 = (props) => {
 </div>
                                     <div className="flex items-center flex-shrink-0">
                                         <div className="relative overflow-hidden py-[20px]">
-                                            <div className="hover:translate-y-0 hover:text-red-500 hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-dust will-change-transform text-[40px] lg:text-[82px]">
+                                            <div className="hover:translate-y-0 hover:text-orange-500 hover:opacity-100 translate-y-[100px] opacity-0 transition-all duration-1000 ease-in-out flex items-center text-black will-change-transform text-[40px] lg:text-[82px]">
                                                 <span className="font-display inline-block leading-none  font-bebasB  lg:font-normal">View Project</span>
                                                 <svg className="-scale-0 origin-center transition-all duration-1000 ease-in-out hover:scale-100 delay-300 w-[24px] h-[24px] lg:w-[32px] lg:h-[32px] mx-[10px] lg:mx-[15px] mt-[-1px] lg:mt-[-5px]" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="16" cy="16" r="15.5" fill="#EEEAEA" stroke="#EEEAEA">
@@ -119,7 +119,7 @@ const ShowcaseWork2 = (props) => {
 
 <motion.div className="flex justify-between mt-[20px] flex-row items-center" variants={ImgAnimate}>
     <a href="/work/daysmart" className="">
-    <span className="h5 font-bebasB hover:text-red-500  text-4xl">{props.name}</span>
+    <span className="h5 font-bebasB hover:text-orange-500  text-4xl">{props.name}</span>
 </a>
 <div className="flex items-center null">
     <span className=" font-bebasB">DESIGN<span className="mx-[4px]">-</span>

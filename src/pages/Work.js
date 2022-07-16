@@ -22,7 +22,6 @@ export const WorkImgs = (props) => {
 
   return (
     <> 
-  <Panels/>
     <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="lg:w-2/3 mx-auto">
@@ -58,7 +57,8 @@ const Work = (props) => {
 
 
  return (
-<section  className=" min-h-screen bg-texture">
+<section  className=" min-h-screen bg-texture cursor-none">
+<Panels/>
 
 <Navbar/>
 

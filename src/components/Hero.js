@@ -8,7 +8,7 @@ import { useLocomotiveScroll } from 'react-locomotive-scroll';
 import roundtxt from "../assets/circletext.f0059cc8.svg";
 import { motion } from "framer-motion";
 import { BsArrowDownCircle } from 'react-icons/bs'
-
+import {Animations} from "../animations";
 
 const container = {
   hidden: {
@@ -45,6 +45,18 @@ const Hero = () => {
   const date = `${current.getHours()}:${current.getUTCMinutes()}   ${current.getUTCDate()}/${current.getUTCMonth() + 1
     }/${current.getFullYear()} `;
 
+
+    const textAnimate ={
+
+      offscreen : { y : 100, opacity : 0} ,
+        onscreen : { y : 0 ,
+          opacity : 1,
+          scale : [0.,1],
+        transition : { type : "spring" ,
+        bounce : 0.1 ,
+        duration : 0.8 }
+        }
+    }
 
   // useEffect(() => {
   //   const scroll = new locomotiveScroll({
@@ -95,7 +107,7 @@ const Hero = () => {
   //   return () => scroll.destroy;
   // }, []);
 
-
+  const {transition, textReveal} = Animations();
 
   useEffect(() => {
     const el = scrollRef.current;
@@ -108,14 +120,18 @@ const Hero = () => {
 
   return (
     <>
-      <section class="  bg-texture   h-full ">
+      <motion.section class="  bg-texture   h-full ">
 
 
 
-        <div class="flex flex-col  border-0  mx-0 mt-0 mb-40 py-0 px-16 align-baseline -space-y-20 ">
+        <motion.div 
+        class="flex flex-col  border-0  mx-0 mt-0 mb-40 py-0 px-16 align-baseline -space-y-20 ">
           <div
             className="relative flex  justify-start m-0 py-0 pl-0 pr-10 align-baseline h-1/2 ">
-            <div
+            
+            
+            <motion.div
+              variants={textReveal} initial="initial" animate="animate" transition= {{...transition, delay: 0.7}}
 
               id="title"
               className="  "
@@ -147,10 +163,16 @@ const Hero = () => {
                
               </p>
 
-            </div>
+            </motion.div>
 
-            <span class="  border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl text-gray-600 transform will-change-scroll scale-105 ">—</span>
-            <div data-scroll=""
+            <motion.span 
+              variants={textReveal} initial="initial" animate="animate" transition= {{...transition, delay: 0.7}}
+              class="  border-0 box-border m-0 p-0 align-baseline lg:text-20xl md:text-8xl text-gray-600 transform will-change-scroll scale-105 ">—</motion.span>
+  
+              <motion.div 
+              variants={textReveal} initial="initial" animate="animate" transition= {{...transition, delay: 0.7}}
+              
+              data-scroll=""
               data-scroll-position="top"
               data-scroll-direction="horizontal"
               data-scroll-speed="-9" className="  ">
@@ -166,7 +188,7 @@ const Hero = () => {
                 </span>
               </p>
 
-            </div>
+            </motion.div>
         
           </div>
     {/* <span className=" z-0 lg:text-[600px]  mt-18 ml-80 fixed  text-gray-500 md:text-8xl  "
@@ -183,7 +205,10 @@ const Hero = () => {
             data-scroll-speed="15"
           >
 
-            <div className="border-0 box-border inline-block m-0 p-0 align-baseline  flex-auto  ">
+            <motion.div 
+              variants={textReveal} initial="initial" animate="animate" transition= {{...transition, delay: 0.7}}
+            
+            className="border-0 box-border inline-block m-0 p-0 align-baseline  flex-auto  ">
               <p className="tracking-tighter  lg:text-16xl md:text-4xl   font-bebasB font-extrabold  ">
 
                 <span className="border-0 box-border m-0  align-baseline  lg:text-16xl md:text-4xl   font-bebasB transition-all duration-200 ease-in-out hover:text-orange-700     text-gray-600   ">
@@ -223,7 +248,7 @@ const Hero = () => {
                   V
                 </span>
               </p>
-            </div>
+            </motion.div>
 
             <div className="border-0 box-border flex flex-col ml-10 p-0 align-baseline max-w-sm h-full ">
               <p className="border-0 text-x font-semibold  m-0 p-0  align-baseline">
@@ -248,8 +273,8 @@ const Hero = () => {
 
 
           </div>
-        </div>
-      </section>
+        </motion.div>
+      </motion.section>
     </>
   );
 };

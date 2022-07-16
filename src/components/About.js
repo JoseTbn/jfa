@@ -45,7 +45,7 @@ const About = () => {
         <motion.h2   
       variants={textAnimate}
     
-          class="border-0 text-gray-600 font-bebasB  text-xl mx-0 mt-0 mb-10 p-0 uppercase align-baseline">DEVSECOPS PATH
+          class="border-0 text-gray-600 font-bebasB  text-3xl mx-0 mt-0 mb-10 p-0 uppercase align-baseline">DEVSECOPS PATH
         </motion.h2>
         <motion.p
            variants={textAnimate}

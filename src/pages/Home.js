@@ -39,7 +39,7 @@ const { scroll } = useLocomotiveScroll();
    return  (
      <>
      <Navbar/>
-    <section  data-scroll-container className=" min-h-screen scroll-smooth  bg-texture cursor-none ">
+    <section  data-scroll-container className=" min-h-screen scroll-smooth  bg-texture  ">
      {/* <section 
      
      className=' scroll-smooth  h-screen w-full flex flex-col  bg-texture relative   '  > */}
@@ -105,7 +105,7 @@ const { scroll } = useLocomotiveScroll();
      <About/>
  
      <Contact/>
-     <Footer/>
+     
      </section>
     </>
   )
