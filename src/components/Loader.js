@@ -90,7 +90,7 @@ const pathVariants = {
   },
 };
 
-const Loader = () => {
+const  Loader = () => {
   return (
     <Container
       initial={{
