@@ -57,7 +57,7 @@ const Work = (props) => {
 
 
  return (
-<section  className=" min-h-screen bg-texture cursor-none">
+<section  className=" min-h-screen bg-texture cursor-none  scroll-smooth ">
 <Panels/>
 
 <Navbar/>

@@ -35,7 +35,7 @@ const About = () => {
  
   return (
     <>
-    <div class=' h-full w-full   '>
+    <div class=' h-full w-full bg-texture  '>
     <motion.section
       initial = {"offscreen"}
       whileInView= {"onscreen"}

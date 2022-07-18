@@ -37,7 +37,7 @@ const Stack = () => {
  viewport={{once:false, amount:0.2}}
 transition={{staggerChildren:0.5}}
 className="py-2 md:py-20">
-  <motion.div variants={divAnimate}  className="container px-4 mx-auto">
+  <motion.div variants={divAnimate}  className="container w-3/4 px-4 mx-auto">
 
     <div className="flex flex-wrap -mx-3 mb-6 lg:mb-0">
       <div className="w-full lg:w-1/2 flex flex-wrap px-3 mb-6 lg:md-0">

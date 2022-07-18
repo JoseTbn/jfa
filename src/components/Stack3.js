@@ -44,7 +44,7 @@ const Stack3 = () => {
  whileInView= {"onscreen"}
  viewport={{once:false, amount:0.2}}
 transition={{staggerChildren:0.5}}
-className="bg-dust pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
+className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
   <div className="container mx-auto">
     <div className=" grid grid-cols-12 gap-10 py-32">
       <div className="col-span-6">

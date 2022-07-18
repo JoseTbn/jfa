@@ -120,11 +120,12 @@ const Hero = () => {
 
   return (
     <>
-      <motion.section class="  bg-texture   h-full ">
+      <motion.section  class="  bg-texture   h-full ">
 
 
 
         <motion.div 
+         data-scroll-container
         class="flex flex-col  border-0  mx-0 mt-0 mb-40 py-0 px-16 align-baseline -space-y-20 ">
           <div
             className="relative flex  justify-start m-0 py-0 pl-0 pr-10 align-baseline h-1/2 ">
