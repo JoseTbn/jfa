@@ -32,9 +32,9 @@ const ProjVEnd = () => {
         initial={"offscreen"}
         whileInView={"onscreen"}
         viewport={{ once: false, amount: 0.5 }}>
-        <div className="container mx-auto">
+        <div className=" container mx-auto">
           <div className="  grid grid-cols-12 gap-10 mb-[60px] lg:mb-[160px]">
-            <motion.div variants={ImgAnimate} className="col-span-4 lg:col-span-6  mb-[60px] lg:mb-0 last:mb-0 ">
+            <motion.div variants={ImgAnimate} className=" col-span-4 lg:col-span-6  mb-[60px] lg:mb-0 last:mb-0 ">
               <div className="relative  aspect-[134/155]">
                 <div className="block w-full h-full rounded-[20px] overflow-hidden [transform:translateZ(0)]">
                   <span

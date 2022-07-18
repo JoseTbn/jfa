@@ -59,7 +59,7 @@ const Contact = () => {
             
             <div className="
           px-5
-          py-12
+          
           mx-auto
           
           max-w-7xl
@@ -90,7 +90,7 @@ const Contact = () => {
               
               </div>
               <div className="mt-8 md:mt-0 md:order-1">
-                <span className="mt-2 text-sm font-light text-gray-600"> Copyright © 2021 - 2022 <a href="https://linktr.ee/JojoFullStackAdventures" className="mx-2 text-wickedblue hover:text-gray-600" rel="noopener noreferrer">@JojoFullStackAdventures</a>. Since 2020 </span>
+                <span className="mt-2 text-sm font-light text-gray-600"> Copyright © 2021 - 2022 <a href="https://linktr.ee/JojoFullStackAdventures" className="mx-2 text-black hover:text-gray-600" rel="noopener noreferrer">@JojoFullStackAdventures</a>. Since 2020 </span>
               </div>
             </div>
 

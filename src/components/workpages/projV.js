@@ -40,13 +40,13 @@ const projV = (props) => {
   return (
     <>
     <BigImg/>
-  <div className="container mx-auto">
+  <div className=" container mx-auto">
   <div className="grid grid-cols-12 gap-10">
     <motion.div 
       initial = {"offscreen"}
       whileInView= {"onscreen"}
       viewport={{once:false, amount:0.5}}
-    className="col-span-4 lg:col-span-5 lg:mb-[100px]">
+    className="  col-span-4 lg:col-span-5 lg:mb-[100px]">
       <motion.div
        variants={ImgAnimate}
       >
