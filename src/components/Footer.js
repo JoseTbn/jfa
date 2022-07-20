@@ -48,7 +48,8 @@ const Footer = () => {
               <div className="link-wrapper">
                 <a
                   className="link hover-1 text-white"
-                  href="https://dribbble.com/lucavolino"
+                  href="https://dribbble.com/josebtn
+                  "
                   target="_new"
                   data-barba-prevent=""
                 >

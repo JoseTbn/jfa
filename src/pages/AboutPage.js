@@ -85,7 +85,7 @@ const AboutPage = () => {
 
 
   return (
-    <section className=" bg-texture w-full h-full cursor-none " >
+    <section className=" bg-texture w-full h-full " >
       <Navbar />
       <Panels/>
       <AboutStyles
@@ -120,13 +120,13 @@ const AboutPage = () => {
         <MainSection />
         <Recognitions />
         <div data-scroll-section className="split">
-          <h1>Front-End Addicted</h1>
-          <h1>Fullstack Capable.</h1>
+          <h1>Front-End Oriented</h1>
+          <h1>Devops Capable.</h1>
         </div>
         <Info />
         <div data-scroll-section className="contact">
           <h1 className="text-3xl font-bebasB ">Got Some Ideas?</h1>
-          <a className="text-3xl font-bebasB " href="mailto: ronnie@ronniefeng.com">Let's Talk.</a>
+          <a className="text-3xl font-bebasB " href="mailto: btnjose@gmail.com">Let's Talk.</a>
         </div>
       </AboutStyles>
     </section>

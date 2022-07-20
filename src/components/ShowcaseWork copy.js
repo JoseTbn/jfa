@@ -29,7 +29,7 @@ const ShowcaseWork2 = (props) => {
    
     >
         
-        <motion.div className=" smmd:mx-auto "
+        <motion.div className=" smmd:mx-auto   "
         
         initial = {"offscreen"}
         whileInView= {"onscreen"}

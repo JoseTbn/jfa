@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import ant from '../../assets/Beige Minimalist Mock Up Design Facebook Cover.png'
+import apricing from '../../assets/images/projects/agency/apricing.png'
 import BigImg from './projVBigImg'
 import { motion } from "framer-motion"
 import { urlFor, client } from '../../client';
@@ -39,7 +40,7 @@ const projV = (props) => {
   
   return (
     <>
-    <BigImg/>
+    <BigImg img={ant}/>
   <div className=" container mx-auto">
   <div className="grid grid-cols-12 gap-10">
     <motion.div 

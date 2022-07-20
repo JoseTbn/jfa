@@ -1,9 +1,10 @@
 import React from 'react'
 import ant from '../../assets/Beige Minimalist Mock Up Design Facebook Cover.png'
+import apricing from '../../assets/images/projects/agency/apricing.png'
 
 
 
-const BigImg = () => {
+const BigImg = (props) => {
   
   const ImgAnimate = {
 
@@ -41,8 +42,8 @@ const BigImg = () => {
       >
         <img
           sizes=" (max-width: 320px) 280px, (max-width: 480px) 440px, 800px "
-          srcSet={ant}
-          src={ant}
+          srcSet={props.img}
+          src={props.img}
           decoding="async"
           data-nimg="fill"
           style={{

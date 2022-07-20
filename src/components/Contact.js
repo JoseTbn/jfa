@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState,useRef} from 'react'
 import {Link} from 'react-router-dom'
 import ContactForm from './ContactForm'
 
@@ -6,6 +6,20 @@ import ContactForm from './ContactForm'
 
 
 const Contact = () => {
+ 
+ 
+  const [copySuccess, setCopySuccess] = useState('');
+  const textAreaRef = useRef(null);
+
+const copyToClipBoard = (e) => {
+textAreaRef.current.select();
+document.execCommand('copy')
+e.target.focus();
+setCopySuccess('copied!')
+}
+
+
+
   return (
     <section className=' h-full bg-texture overflow-hidden ' >
 
@@ -16,7 +30,7 @@ const Contact = () => {
                 <div className=" animate-scrollZ">
 
           <a
-            href="mailto:oluwadareseyii@gmail.com?subject=Lets%20work%20together!&body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
+            href="mailto:btnjose@gmail.com?subject=Lets%20work%20together!&body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
             className=" hover:transform hover:translate-y-0 hover:text-orange-600"
           >
             <div className="">
@@ -52,7 +66,9 @@ const Contact = () => {
         <hr className=" border-b border-gray-400 mt-60" />
 
 
-<button className="bg-transparent mt-20 border-0 cursor-pointer font-medium font-bebasB text-5xl mb-6 p-0 tracking-tight">btnjose@gmail.com</button>
+<button  onClick={() =>
+        navigator.clipboard.writeText("Copy this text to clipboard")
+      } className="bg-transparent mt-20 border-0 cursor-pointer font-medium font-bebasB text-5xl mb-6 p-0 tracking-tight  ">btnjose@gmail.com</button>
 
             </div>
 

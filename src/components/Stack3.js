@@ -9,6 +9,7 @@ import  m from "../assets/stacks/mongo.svg"
 import  s from "../assets/stacks/sass.svg"
 import  n from "../assets/stacks/node.svg"
 import  t from "../assets/stacks/tailwind.svg"
+import vagrant from "../assets/Certificates/Capture d’écran 2022-07-20 142143.png"
 import {motion} from "framer-motion"
 
 
@@ -99,8 +100,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
-            src="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+            srcSet="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/1200px-Java_Logo.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/1200px-Java_Logo.svg.png"
       
           
           />
@@ -113,8 +114,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
-            src="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+            srcSet="https://play-lh.googleusercontent.com/NX2yIzhb1SyMKmn0N0CFyLqY_U9U-uhD06ITeJSg67IKMCHZ50SgylgrqhHdGn1Zabs"
+            src="https://play-lh.googleusercontent.com/NX2yIzhb1SyMKmn0N0CFyLqY_U9U-uhD06ITeJSg67IKMCHZ50SgylgrqhHdGn1Zabs"
       
           
           />
@@ -211,8 +212,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={c}
-            src={c}
+            srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
       
           
           />
@@ -238,10 +239,10 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
 
-            srcSet={j}
-            src={j}
+            srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
           />
-          <noscript></noscript>
+          {/* <noscript></noscript> */}
         </span>
       </div>
     </div>
@@ -265,8 +266,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  w-[400px] "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://www.evanlegamer.fr/images/clients/graphql.png"
+            src="https://www.evanlegamer.fr/images/clients/graphql.png"
       
           
           />
@@ -279,8 +280,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://yohannjacob.fr/img/mysql.png"
+            src='https://yohannjacob.fr/img/mysql.png'
       
           
           />
@@ -293,8 +294,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png"
       
           
           />
@@ -307,8 +308,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="http://blog.engineering.publicissapient.fr/wp-content/uploads/2020/03/svelte-logo_20191220.png"
+            src="http://blog.engineering.publicissapient.fr/wp-content/uploads/2020/03/svelte-logo_20191220.png"
       
           
           />
@@ -335,8 +336,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://tailwindcss.com/_next/static/media/social-square.b622e290e82093c36cca57092ffe494f.jpg"
+            src="https://tailwindcss.com/_next/static/media/social-square.b622e290e82093c36cca57092ffe494f.jpg"
       
           
           />
@@ -349,8 +350,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://web-forward.de/wp-content/uploads/2020/06/typescript-rand.jpg"
+            src="https://web-forward.de/wp-content/uploads/2020/06/typescript-rand.jpg"
       
           
           />
@@ -363,62 +364,62 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={g}
-            src={g}
-      
-          
-          />
-        </span>
-      </div>
-      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
-        <span className=" "
-          
-        >
-          <img
-          className=" bg-white h-60 w-96  "
-            
-            srcSet={c}
-            src={c}
-      
-          
-          />
-        </span>
-      </div>
-      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
-        <span className=" "
-          
-        >
-          <img
-          className=" bg-white h-60 w-96  "
-            
-            srcSet={g}
-            src={g}
-      
-          
-          />
-        </span>
-      </div>
-      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
-        <span className=" "
-          
-        >
-          <img
-          className=" bg-white h-60 w-96  "
-            
-            srcSet={j}
-            src={j}
-      
-          
-          />
-        </span>
-      </div>
-      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
-        <span className=" "
-          
-        >
-          <img
-          className=" bg-white h-60 w-96  "
             srcSet={a}
+            src={a}
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+          srcSet="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/1200px-Java_Logo.svg.png"
+          src="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/1200px-Java_Logo.svg.png"
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+          srcSet="https://play-lh.googleusercontent.com/NX2yIzhb1SyMKmn0N0CFyLqY_U9U-uhD06ITeJSg67IKMCHZ50SgylgrqhHdGn1Zabs"
+          src="https://play-lh.googleusercontent.com/NX2yIzhb1SyMKmn0N0CFyLqY_U9U-uhD06ITeJSg67IKMCHZ50SgylgrqhHdGn1Zabs"
+    
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+          srcSet="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+          src="https://nextblick.com/static/097b58a7aa6a7e183fa8e13647f2dabe/node-js.svg"
+      
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            srcSet={s}
       
           
           />
@@ -448,8 +449,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://jolicode.com/media/original/2013/10/homepage-docker-logo.png"
+            src="https://jolicode.com/media/original/2013/10/homepage-docker-logo.png"
       
           
           />
@@ -462,8 +463,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://www.redhat.com/cms/managed-files/tux-327x360.png"
+            src="https://www.redhat.com/cms/managed-files/tux-327x360.png"
       
           
           />
@@ -476,8 +477,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png"
       
           
           />
@@ -490,8 +491,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://www.misesurorbite.fr/wp-content/uploads/2020/04/gitlab-logo-gray-stacked-rgb.png"
+            src="https://www.misesurorbite.fr/wp-content/uploads/2020/04/gitlab-logo-gray-stacked-rgb.png"
       
           
           />
@@ -504,8 +505,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={f}
-            src={f}
+            srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1200px-Ansible_logo.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1200px-Ansible_logo.svg.png"
       
           
           />
@@ -518,8 +519,21 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={f}
-            src={f}
+            srcSet="https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png"
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet="https://xavki.blog/wp-content/uploads/2021/10/vagrant-logo.png"
+            src="https://xavki.blog/wp-content/uploads/2021/10/vagrant-logo.png"
       
           
           />
@@ -532,8 +546,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={f}
-            src={f}
+            srcSet="https://i2.wp.com/thinkground.studio/wp-content/uploads/2019/04/190415_Nginx-Logo.png?fit=423%2C401&ssl=1"
+            src="https://i2.wp.com/thinkground.studio/wp-content/uploads/2019/04/190415_Nginx-Logo.png?fit=423%2C401&ssl=1"
       
           
           />
@@ -546,8 +560,21 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Chef_logo.svg/1200px-Chef_logo.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Chef_logo.svg/1200px-Chef_logo.svg.png"
+          
+          />
+        </span>
+      </div>
+      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
+        <span className=" "
+          
+        >
+          <img
+          className=" bg-white h-60 w-96  "
+            
+            srcSet="https://static.javatpoint.com/tutorial/puppet/images/puppet.png"
+            src="https://static.javatpoint.com/tutorial/puppet/images/puppet.png"
       
           
           />
@@ -560,36 +587,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
-      
-          
-          />
-        </span>
-      </div>
-      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
-        <span className=" "
-          
-        >
-          <img
-          className=" bg-white h-60 w-96  "
-            
-            srcSet={j}
-            src={j}
-      
-          
-          />
-        </span>
-      </div>
-      <div className=" relative w-[315px]  rounded-[20px] overflow-hidden">
-        <span className=" "
-          
-        >
-          <img
-          className=" bg-white h-60 w-96  "
-            
-            srcSet={j}
-            src={j}
+            srcSet="https://www.ambient-it.net/wp-content/uploads/2022/04/Logo-Jira-200x175-2.png"
+            src="https://www.ambient-it.net/wp-content/uploads/2022/04/Logo-Jira-200x175-2.png"
       
           
           />
@@ -627,8 +626,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://blog.stephane-robert.info/img/Terraform-logo.png"
+            src="https://blog.stephane-robert.info/img/Terraform-logo.png"
       
           
           />
@@ -641,8 +640,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://kiodev.com/wp-content/uploads/2016/02/gradlephant.png"
+            src="https://kiodev.com/wp-content/uploads/2016/02/gradlephant.png"
       
           
           />
@@ -655,8 +654,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://kubernetes.io/images/favicon.png"
+            src="https://kubernetes.io/images/favicon.png"
       
           
           />
@@ -669,8 +668,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={j}
-            src={j}
+            srcSet="https://xavki.blog/wp-content/uploads/2021/10/vagrant-logo.png"
+            src="https://xavki.blog/wp-content/uploads/2021/10/vagrant-logo.png"
       
           
           />
@@ -683,8 +682,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={f}
-            src={f}
+            srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png"
       
           
           />
@@ -697,8 +696,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={f}
-            src={f}
+            srcSet="https://www.devopsschool.com/assets/assets1/images/courses/apache_maven.png"
+            src="https://www.devopsschool.com/assets/assets1/images/courses/apache_maven.png"
       
           
           />
@@ -711,8 +710,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
           <img
           className=" bg-white h-60 w-96  "
             
-            srcSet={f}
-            src={f}
+            srcSet="https://xavki.blog/wp-content/uploads/2021/10/vagrant-logo.png"
+            src="https://xavki.blog/wp-content/uploads/2021/10/vagrant-logo.png"
       
           
           />
@@ -816,8 +815,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
                 boxSizing: "border-box",
                 display: "inline-block",
                 overflow: "hidden",
-                width: 73,
-                height: 21,
+                width: 150,
+                height: 150,
                 background: "none",
                 opacity: 1,
                 border: 0,
@@ -828,8 +827,8 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
             >
               <img
               className=" bg-white h-60 w-96  "
-                srcSet="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff4126d29c7f665271e1c8d156a83161ea6986627-73x21.svg&w=60&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff4126d29c7f665271e1c8d156a83161ea6986627-73x21.svg&w=256&q=75 2x"
-                src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs695h8ei%2Fproduction%2Ff4126d29c7f665271e1c8d156a83161ea6986627-73x21.svg&w=256&q=75"
+                srcSet={vagrant}
+                src={vagrant}
                 decoding="async"
                 data-nimg="fixed"
                 style={{
