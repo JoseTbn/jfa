@@ -22,12 +22,12 @@ className="lg:inline-block lg:text-xl lg:ml-14 lg:pb-0.5 lg:  lg:no-underline md
     </a>
     </Link >
    
-    <Link to={'/About'}><a class=' group flex flex-col   lg:text-xl lg:ml-14 lg:pb-0.5 lg:relative lg:overflow-hidden  transition-all duration-500 ease-in-out hover:bg-orange-700 lg:no-underline md:text-xs font-semibold uppercase text-gray-600 tracking-wider border border-gray-900 p-2  rounded-full  w-32  h-full' >
+    {/* <Link to={'/About'}><a class=' group flex flex-col   lg:text-xl lg:ml-14 lg:pb-0.5 lg:relative lg:overflow-hidden  transition-all duration-500 ease-in-out hover:bg-orange-700 lg:no-underline md:text-xs font-semibold uppercase text-gray-600 tracking-wider border border-gray-900 p-2  rounded-full  w-32  h-full' >
       <span  className="absolute ml-5 -mt-2  justify-center mx-auto w-full px-auto  transition-transform duration-300 ease-in-out group-hover:translate-y-[-50px]">about</span>
       <span className="absolute ml-5 -mt-2  justify-centermx-auto w-full px-autotransition-transform duration-300 ease-in-out  translate-y-[50px] group-hover:-translate-y-0" >about</span>
       </a>
       </Link>
-    
+     */}
     <Link to={'/contact'}><a class=' group flex flex-col  lg:text-xl lg:ml-14 lg:pb-0.5 lg:relative lg:overflow-hidden  transition-all duration-500 ease-in-out hover:bg-orange-700 lg:no-underline md:text-xs font-semibold uppercase text-gray-600 tracking-wider border border-gray-900 p-2  rounded-full  w-32  h-full ' >
       <span  className="absolute ml-2 -mt-2 justify-center mx-auto w-full px-auto   transition-transform duration-300 ease-in-out group-hover:translate-y-[-50px]" >contact</span>
       <span className="absolute ml-2 -mt-2 justify-center mx-auto w-full px-auto transition-transform duration-300 ease-in-out  translate-y-[50px] group-hover:-translate-y-0" >contact</span>

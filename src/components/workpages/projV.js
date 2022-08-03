@@ -40,6 +40,7 @@ const projV = (props) => {
   
   return (
     <>
+    
     <BigImg img={ant}/>
   <div className=" container mx-auto">
   <div className="grid grid-cols-12 gap-10">
@@ -97,15 +98,11 @@ const projV = (props) => {
           </a>
         </div>
         <p className="text-lg leading-6 mx-0 mt-0 mb-8 lg:font-light lg:text-xl lg:leading-7 lg:tracking-normal ">
-          Carv is a wearable ski boot device that analyses your technique and
-          provides audio coaching in real-time. The brand broke the sports
-          wearables record on KickStarter and has built a community of over
-          20,000 skiers through its personalised training plans and Ski:IQ™
-          scoring system.
+          Anticip is a Brussels based staffing agency.
         </p>
         <ul className="h-[70px] columns-2">
-          <li className="xs-paragraph lg:sm-paragraph">UX/UI design</li>
-          <li className="xs-paragraph lg:sm-paragraph">Shopify development</li>
+          <li className="xs-paragraph lg:sm-paragraph">React js development</li>
+          <li className="xs-paragraph lg:sm-paragraph">Tailswind Css</li>
           <li className="xs-paragraph lg:sm-paragraph">
             Front-end development
           </li>
@@ -119,10 +116,10 @@ const projV = (props) => {
       <motion.div variants={ImgAnimate} className="mt-[50px] lg:mt-0 pt-[14px] pb-[60px] lg:pb-[72px] border-t-[1.5px] border-black">
         <span className="block upper mb-[28px]">Background</span>
         <p className="sm-paragraph">
-          We’d been working with Carv since the beginning and developed its
-          first Shopify site for the boot liner technology and app. With the
-          business going from strength to strength, and the Carv team planning
-          to launch a new membership to the skiing community, it was time for a
+          I started working with Anticip since the beginning and developed their
+          first Website for the lauch of their marketing campaign. With the
+          business going from strength to strength, and the Anticip team planning
+          to launch a new system to connect companies and recruiters with new talents, it was time for a
           refresh.
         </p>
       </motion.div>

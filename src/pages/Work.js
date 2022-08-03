@@ -22,6 +22,7 @@ export const WorkImgs = (props) => {
 
   return (
     <> 
+    
     <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="lg:w-2/3 mx-auto">
@@ -57,7 +58,7 @@ const Work = (props) => {
 
 
  return (
-<section  className=" min-h-screen bg-texture cursor-none   scroll-smooth ">
+<section  className=" min-h-screen bg-texture  scroll-smooth  ">
 <Panels/>
 
 <Navbar/>
@@ -69,7 +70,7 @@ const Work = (props) => {
 />
 <ProjVEnd/>
 <EndNextP/>
-<EndNextPDown/>
+{/* <EndNextPDown/> */}
 </section>
   )
 }
