@@ -59,7 +59,7 @@ const Work = (props) => {
 
  return (
 <section  className=" min-h-screen bg-texture  scroll-smooth  ">
-<Panels/>
+
 
 <Navbar/>
 

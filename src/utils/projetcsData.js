@@ -14,7 +14,9 @@ export default [
     type: 'Personal project ',
     date: '2020',
     className: 'col-span-4  md:col-span-6 mt-[48px] lg:mt-0 w-[640px] h-[800px] lgx:w-[320px] ',
-    side: 'flex'
+    side: 'flex',
+    mobileclassName: 'w-full md:w-1/2 md:relative md:top-12 p-5',
+    mobileclassName2: 'w-full md:w-1/2 md:relative md:top-12 p-5',
 },
 {
     id:2,
@@ -25,7 +27,8 @@ export default [
     type: 'Personal project ',
     date: '2020',
     className: 'col-span-4 lg:col-span-6 mt-[48px] lg:mt-[154px] w-[640px] h-[800px] lgx:w-[320px] ',
-    side: 'flex'
+    side: 'flex',
+    mobileclassName: 'w-full md:w-1/2 p-5'
 
 },
 {
@@ -37,7 +40,8 @@ export default [
     type: 'Personal project ',
     date: '2020',
     className: 'col-span-4 lg:col-span-6 mt-[48px] lg:mt-0 w-[640px] h-[800px] lgx:w-[320px]',
-    side: ' flex '
+    side: ' flex ',
+    mobileclassName: 'w-full md:w-1/2 md:relative md:top-12 p-5'
 
 },
 {
@@ -49,7 +53,8 @@ export default [
     type: 'Personal project ',
     date: '2020',
     className: 'col-span-4 lg:col-span-6 mt-[48px] lg:mt-[154px] w-[640px] h-[800px] lgx:w-[320px] ',
-    side: ' flex '
+    side: ' flex ',
+    mobileclassName: 'w-full md:w-1/2 p-5'
 
 },
 

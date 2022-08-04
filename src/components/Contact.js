@@ -11,6 +11,9 @@ const Contact = () => {
   const [copySuccess, setCopySuccess] = useState('');
   const textAreaRef = useRef(null);
 
+
+
+
 const copyToClipBoard = (e) => {
 textAreaRef.current.select();
 document.execCommand('copy')

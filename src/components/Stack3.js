@@ -11,6 +11,7 @@ import  n from "../assets/stacks/node.svg"
 import  t from "../assets/stacks/tailwind.svg"
 import vagrant from "../assets/Certificates/Capture d’écran 2022-07-20 142143.png"
 import {motion} from "framer-motion"
+import { useState } from 'react'
 
 
 const textAnimate ={
@@ -38,6 +39,14 @@ const textreveal ={
 
 
 const Stack3 = () => {
+ 
+
+  
+  const [checked, setChecked] = React.useState(false);
+  const [activeFilter, setActiveFilter] = React.useState('All')
+
+ 
+ 
   return (
    
 <motion.div 
@@ -49,7 +58,7 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
   <div className="container mx-auto">
     <div className=" grid grid-cols-12 gap-10 py-32">
       <div className="col-span-6">
-        <h3 className="m-h5 lg:h5 mb-[20px] lg:mb-0 text-3xl font-semibold py-6  ">Tech</h3>
+        <h3 className="m-h5 lg:h5 mb-[20px] lg:mb-0 text-3xl font-semibold py-6  ">TECH STACKS</h3>
       </div>
       <motion.div variants={textAnimate} className="col-span-5">
         <div>
@@ -789,6 +798,90 @@ className="bg-texture pt-[75px] lg:pt-[120px] pb-[88px] lg:pb-[100px]">
       </div>
     </div>
   </div>
+
+  <section className="  py-20 2xl:py-40 overflow-hidden">
+  <div className="container mx-auto px-4">
+    <div className="max-w-xl mx-auto mb-12 lg:mb-28 text-center">
+      <span className="text-lg text-blue-400 font-semibold">Our Works</span>
+      <h2 className="mt-8 text-5xl text-white font-bold font-heading">
+        More than 20 years in the game
+      </h2>
+    </div>
+    <div className="flex flex-wrap -mx-5">
+      <div className="w-full lg:w-1/3 px-5 pt-10 lg:pt-20 pb-10">
+        <ul>
+          <li className="pb-5 border-b border-gray-500">
+            <a
+              className="inline-block py-6 px-12 active:bg-gray-600 rounded-lg text-lg text-white font-bold"
+              href="#"
+            >
+              Development
+            </a>
+          </li>
+          <li className="py-6 border-b border-gray-500">
+            <a onClick={() => setChecked(!checked)}
+              className=" checked:bg-gray-600 rounded-lg  inline-block py-6 px-12 text-lg text-gray-300"
+              href="#"
+            >
+             Devops
+            </a>
+          </li>
+          <li className="py-6 border-b border-gray-500">
+            <a
+              className=" active:bg-gray-600 rounded-lg  inline-block py-6 px-12 text-lg text-gray-300"
+              href="#"
+            >
+              Cloud
+            </a>
+          </li>
+          <li>
+            <a
+              className=" active:bg-gray-600 rounded-lg  inline-block py-6 px-12 text-lg text-gray-300"
+              href="#"
+            >
+              All projects
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="w-full lg:w-2/3 px-5">
+        <div className="flex flex-wrap -px-4">
+          <div className="w-full md:w-1/3 p-4">
+            <img
+              className="h-96 w-full object-fit"
+              srcSet={s}
+              alt=""
+            />
+          </div>
+          <div className="w-full md:w-2/3 p-4">
+            <img
+              className="h-96 object-cover w-full"
+              src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=959&q=80"
+              alt=""
+            />
+          </div>
+          <div className="w-full md:w-2/3 p-4">
+            <img
+              className="h-96 object-cover w-full"
+              src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80"
+              alt=""
+            />
+          </div>
+          <div className="w-full md:w-1/3 p-4">
+            <img
+              className="h-96 w-full object-cover"
+              src="https://images.unsplash.com/photo-1617791160588-241658c0f566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=959&q=80"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
   <motion.div 
    initial = {"offscreen"}
    whileInView= {"onscreen"}
